@@ -1,5 +1,6 @@
 """
 Small vLLM helpers for server lifecycle, completion requests, and NCCL weight sync.
+vLLM 初始化、权重同步、生成
 """
 
 import atexit
