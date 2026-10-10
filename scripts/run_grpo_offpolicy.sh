@@ -22,7 +22,7 @@ run_one() {
   mkdir -p "$out"
   local args=(--importance-reweighting-method "${METHOD[$name]}" --train-batch-size 8)
   [[ -n "${CLIP[$name]}" ]] && args+=(--cliprange "${CLIP[$name]}")
-  uv run python -u scripts/train_grpo.py \
+  uv run --locked --extra gpu python -u scripts/train_grpo.py \
     --model-path "$MODEL_PATH" --train-path "$TRAIN_PATH" --validation-path "$VAL_PATH" \
     --prompt-type r1_zero --num-steps "$STEPS" --train-limit 6400 --validation-limit 1024 \
     --rollout-batch-size 256 --group-size 8 --gradient-accumulation-steps 1 \

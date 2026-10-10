@@ -1,0 +1,40 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:47,  3.71it/s]Loading weights:  40%|███▉      | 71/179 [00:00<00:00, 240.47it/s]Loading weights:  64%|██████▎   | 114/179 [00:00<00:00, 296.32it/s]Loading weights:  88%|████████▊ | 157/179 [00:00<00:00, 332.53it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 288.63it/s]
+(EngineCore pid=54265) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(EngineCore pid=54265) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(EngineCore pid=54265) Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=54265) Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.04it/s]
+(EngineCore pid=54265) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.78it/s]
+(EngineCore pid=54265) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.61it/s]
+(EngineCore pid=54265) 
+(EngineCore pid=54265) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 6/51 [00:00<00:00, 52.36it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▎       | 12/51 [00:00<00:00, 53.81it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  35%|███▌      | 18/51 [00:00<00:00, 55.51it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  47%|████▋     | 24/51 [00:00<00:00, 56.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  59%|█████▉    | 30/51 [00:00<00:00, 57.63it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  71%|███████   | 36/51 [00:00<00:00, 58.39it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 42/51 [00:00<00:00, 58.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 48/51 [00:00<00:00, 56.02it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 51/51 [00:00<00:00, 54.68it/s]
+(EngineCore pid=54265) Capturing CUDA graphs (decode, FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  20%|██        | 7/35 [00:00<00:00, 64.23it/s]Capturing CUDA graphs (decode, FULL):  40%|████      | 14/35 [00:00<00:00, 66.32it/s]Capturing CUDA graphs (decode, FULL):  60%|██████    | 21/35 [00:00<00:00, 67.03it/s]Capturing CUDA graphs (decode, FULL):  80%|████████  | 28/35 [00:00<00:00, 68.12it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 68.02it/s]
+(APIServer pid=54170) INFO:     Started server process [54170]
+(APIServer pid=54170) INFO:     Waiting for application startup.
+(APIServer pid=54170) INFO:     Application startup complete.
+(APIServer pid=54170) INFO:     127.0.0.1:39988 - "GET /health HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40000 - "GET /get_world_size HTTP/1.1" 200 OK
+INFO 10-09 00:25:19 [pynccl.py:111] vLLM is using nccl==2.27.5
+(APIServer pid=54170) INFO:     127.0.0.1:40006 - "POST /init_weight_transfer_engine HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40018 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40022 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40036 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40038 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40044 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40058 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40064 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40076 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40078 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:40086 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:39676 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:39678 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:39688 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:39692 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=54170) INFO:     127.0.0.1:39698 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.84s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.84s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/MaxRL/checkpoints/step_000001
+[step 1/1] loss=0.0000 reward=0.0000
+(APIServer pid=54170) INFO:     Shutting down
+(APIServer pid=54170) INFO:     Waiting for application shutdown.
+(APIServer pid=54170) INFO:     Application shutdown complete.
+(APIServer pid=54170) INFO:     Finished server process [54170]

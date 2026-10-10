@@ -1,0 +1,200 @@
+[2026-10-09T00:19:26.226516] stage=smoke, jobs=16
+launch smoke/standard: GPU 0/1, port 8500
+launch smoke/lr_low: GPU 2/3, port 8501
+launch smoke/lr_high: GPU 4/5, port 8502
+launch smoke/question_only: GPU 6/7, port 8503
+smoke/standard: complete
+smoke/lr_low: complete
+smoke/lr_high: complete
+smoke/question_only: complete
+launch smoke/three_shot: GPU 0/1, port 8500
+launch smoke/GRPO_constant: GPU 2/3, port 8501
+launch smoke/Dr_GRPO: GPU 4/5, port 8502
+launch smoke/RFT: GPU 6/7, port 8503
+smoke/three_shot: failed
+smoke/GRPO_constant: failed
+smoke/Dr_GRPO: failed
+smoke/RFT: failed
+QUEUE FAILED: smoke/three_shot: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/three_shot/startup.log
+smoke/GRPO_constant: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/GRPO_constant/startup.log
+smoke/Dr_GRPO: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/Dr_GRPO/startup.log
+smoke/RFT: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/RFT/startup.log
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 222, in <module>
+    main()
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 213, in main
+    queue.run()
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 180, in run
+    self.run_stage("smoke", smoke, smoke=True)
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 167, in run_stage
+    raise RuntimeError("\n".join(errors))
+RuntimeError: smoke/three_shot: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/three_shot/startup.log
+smoke/GRPO_constant: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/GRPO_constant/startup.log
+smoke/Dr_GRPO: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/Dr_GRPO/startup.log
+smoke/RFT: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/RFT/startup.log
+[2026-10-09T00:22:46.857213] stage=smoke, jobs=16
+launch smoke/three_shot: GPU 0/1, port 8500
+launch smoke/GRPO_constant: GPU 2/3, port 8501
+launch smoke/Dr_GRPO: GPU 4/5, port 8502
+launch smoke/RFT: GPU 6/7, port 8503
+smoke/GRPO_constant: complete
+smoke/Dr_GRPO: complete
+smoke/RFT: complete
+smoke/three_shot: complete
+launch smoke/MaxRL: GPU 0/1, port 8500
+launch smoke/offpolicy_naive: GPU 2/3, port 8501
+launch smoke/offpolicy_noclip: GPU 4/5, port 8502
+launch smoke/offpolicy_clip: GPU 6/7, port 8503
+smoke/MaxRL: complete
+smoke/offpolicy_naive: complete
+smoke/offpolicy_noclip: complete
+smoke/offpolicy_clip: complete
+launch smoke/offpolicy_gspo: GPU 0/1, port 8500
+launch smoke/standard_seed1: GPU 2/3, port 8501
+launch smoke/standard_seed2: GPU 4/5, port 8502
+launch smoke/standard_seed3: GPU 6/7, port 8503
+smoke/standard_seed2: complete
+smoke/standard_seed3: complete
+smoke/offpolicy_gspo: complete
+smoke/standard_seed1: complete
+[2026-10-09T00:27:37.089891] stage=grpo_debug, jobs=1
+launch grpo_debug/seed0: GPU 0/1, port 8500
+[2026-10-09T00:31:42.382764] stage=smoke, jobs=16
+[2026-10-09T00:31:42.451003] stage=grpo_standard, jobs=4
+launch grpo_standard/seed0: GPU 0/1, port 8500
+launch grpo_standard/seed1: GPU 2/3, port 8501
+launch grpo_standard/seed2: GPU 4/5, port 8502
+launch grpo_standard/seed3: GPU 6/7, port 8503
+grpo_standard/seed3: complete
+grpo_standard/seed2: complete
+grpo_standard/seed0: complete
+grpo_standard/seed1: complete
+[2026-10-09T01:13:34.235219] stage=lr_sweep, jobs=8
+launch lr_sweep/lr_5e-6_seed0: GPU 0/1, port 8500
+launch lr_sweep/lr_5e-6_seed1: GPU 2/3, port 8501
+launch lr_sweep/lr_5e-6_seed2: GPU 4/5, port 8502
+launch lr_sweep/lr_5e-6_seed3: GPU 6/7, port 8503
+lr_sweep/lr_5e-6_seed0: complete
+lr_sweep/lr_5e-6_seed3: complete
+lr_sweep/lr_5e-6_seed1: complete
+lr_sweep/lr_5e-6_seed2: complete
+launch lr_sweep/lr_2e-5_seed0: GPU 0/1, port 8500
+launch lr_sweep/lr_2e-5_seed1: GPU 2/3, port 8501
+launch lr_sweep/lr_2e-5_seed2: GPU 4/5, port 8502
+launch lr_sweep/lr_2e-5_seed3: GPU 6/7, port 8503
+lr_sweep/lr_2e-5_seed0: complete
+lr_sweep/lr_2e-5_seed3: complete
+lr_sweep/lr_2e-5_seed1: complete
+lr_sweep/lr_2e-5_seed2: complete
+[2026-10-09T02:39:25.156154] stage=prompt_ablation, jobs=8
+launch prompt_ablation/question_only_seed0: GPU 0/1, port 8500
+launch prompt_ablation/question_only_seed1: GPU 2/3, port 8501
+launch prompt_ablation/question_only_seed2: GPU 4/5, port 8502
+launch prompt_ablation/question_only_seed3: GPU 6/7, port 8503
+prompt_ablation/question_only_seed3: complete
+prompt_ablation/question_only_seed2: failed
+prompt_ablation/question_only_seed0: complete
+prompt_ablation/question_only_seed1: complete
+QUEUE FAILED: prompt_ablation/question_only_seed2: Unterminated string starting at: line 1 column 351 (char 350)
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 227, in <module>
+    if __name__ == "__main__":
+        ^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 218, in main
+    try:
+        ^
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 197, in run
+    write_json(self.root / "learning_rate_selection.json", {"mean_final_rewards": rewards, "selected": best_lr})
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/run_experiment_queue.py", line 171, in run_stage
+    if errors:
+        ^^^^^^^
+RuntimeError: prompt_ablation/question_only_seed2: Unterminated string starting at: line 1 column 351 (char 350)
+[2026-10-09T19:12:36.927225] stage=smoke, jobs=16
+[2026-10-09T19:12:37.470063] stage=grpo_standard, jobs=4
+[2026-10-09T19:12:37.556467] stage=lr_sweep, jobs=8
+[2026-10-09T19:12:37.997087] stage=prompt_ablation, jobs=8
+launch prompt_ablation/r1_zero_three_shot_seed0: GPU 0/1, port 8500
+launch prompt_ablation/r1_zero_three_shot_seed1: GPU 2/3, port 8501
+launch prompt_ablation/r1_zero_three_shot_seed2: GPU 4/5, port 8502
+launch prompt_ablation/r1_zero_three_shot_seed3: GPU 6/7, port 8503
+[2026-10-09T19:24:46.850125] stage=smoke, jobs=16
+[2026-10-09T19:24:46.901852] stage=grpo_standard, jobs=4
+[2026-10-09T19:24:46.978918] stage=lr_sweep, jobs=8
+[2026-10-09T19:24:47.420117] stage=prompt_ablation, jobs=8
+adopt prompt_ablation/r1_zero_three_shot_seed0: PID 10403
+adopt prompt_ablation/r1_zero_three_shot_seed1: PID 10404
+adopt prompt_ablation/r1_zero_three_shot_seed2: PID 10405
+adopt prompt_ablation/r1_zero_three_shot_seed3: PID 10406
+prompt_ablation/r1_zero_three_shot_seed1: complete
+prompt_ablation/r1_zero_three_shot_seed3: complete
+prompt_ablation/r1_zero_three_shot_seed0: complete
+prompt_ablation/r1_zero_three_shot_seed2: complete
+[2026-10-09T20:07:58.326559] stage=grpo_variants, jobs=16
+launch grpo_variants/GRPO_constant_seed0: GPU 0/1, port 8500
+launch grpo_variants/GRPO_constant_seed1: GPU 2/3, port 8501
+launch grpo_variants/GRPO_constant_seed2: GPU 4/5, port 8502
+launch grpo_variants/GRPO_constant_seed3: GPU 6/7, port 8503
+grpo_variants/GRPO_constant_seed3: complete
+grpo_variants/GRPO_constant_seed1: complete
+grpo_variants/GRPO_constant_seed0: complete
+grpo_variants/GRPO_constant_seed2: complete
+launch grpo_variants/Dr_GRPO_seed0: GPU 0/1, port 8500
+launch grpo_variants/Dr_GRPO_seed1: GPU 2/3, port 8501
+launch grpo_variants/Dr_GRPO_seed2: GPU 4/5, port 8502
+launch grpo_variants/Dr_GRPO_seed3: GPU 6/7, port 8503
+grpo_variants/Dr_GRPO_seed3: complete
+grpo_variants/Dr_GRPO_seed0: complete
+grpo_variants/Dr_GRPO_seed2: complete
+grpo_variants/Dr_GRPO_seed1: complete
+launch grpo_variants/RFT_seed0: GPU 0/1, port 8500
+launch grpo_variants/RFT_seed1: GPU 2/3, port 8501
+launch grpo_variants/RFT_seed2: GPU 4/5, port 8502
+launch grpo_variants/RFT_seed3: GPU 6/7, port 8503
+grpo_variants/RFT_seed0: complete
+grpo_variants/RFT_seed2: complete
+grpo_variants/RFT_seed3: complete
+grpo_variants/RFT_seed1: complete
+launch grpo_variants/MaxRL_seed0: GPU 0/1, port 8500
+launch grpo_variants/MaxRL_seed1: GPU 2/3, port 8501
+launch grpo_variants/MaxRL_seed2: GPU 4/5, port 8502
+launch grpo_variants/MaxRL_seed3: GPU 6/7, port 8503
+grpo_variants/MaxRL_seed2: complete
+grpo_variants/MaxRL_seed3: complete
+grpo_variants/MaxRL_seed0: complete
+grpo_variants/MaxRL_seed1: complete
+[2026-10-09T22:51:09.497921] stage=grpo_offpolicy, jobs=16
+launch grpo_offpolicy/offpolicy_naive_seed0: GPU 0/1, port 8500
+launch grpo_offpolicy/offpolicy_naive_seed1: GPU 2/3, port 8501
+launch grpo_offpolicy/offpolicy_naive_seed2: GPU 4/5, port 8502
+launch grpo_offpolicy/offpolicy_naive_seed3: GPU 6/7, port 8503
+grpo_offpolicy/offpolicy_naive_seed1: complete
+grpo_offpolicy/offpolicy_naive_seed2: complete
+grpo_offpolicy/offpolicy_naive_seed3: complete
+grpo_offpolicy/offpolicy_naive_seed0: complete
+launch grpo_offpolicy/offpolicy_noclip_seed0: GPU 0/1, port 8500
+launch grpo_offpolicy/offpolicy_noclip_seed1: GPU 2/3, port 8501
+launch grpo_offpolicy/offpolicy_noclip_seed2: GPU 4/5, port 8502
+launch grpo_offpolicy/offpolicy_noclip_seed3: GPU 6/7, port 8503
+grpo_offpolicy/offpolicy_noclip_seed0: complete
+grpo_offpolicy/offpolicy_noclip_seed1: complete
+grpo_offpolicy/offpolicy_noclip_seed3: failed
+grpo_offpolicy/offpolicy_noclip_seed2: failed
+Continuing after failures: grpo_offpolicy/offpolicy_noclip_seed3: Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed3: {'step': 129, 'split': 'train', 'clip_count': 0.0, 'clip_total': 0.0, 'clip_fraction': 0.0, 'loss': 1.9074189409859434e+33, 'gradient_norm': inf, 'token_entropy': 0.018714608624577522, 'num_response_tokens': 611.65625, 'num_sequences': 8.0, 'num_active_sequences': 3.25, 'entropy_num_sequences': 3.25, 'mean_reward': 0.23046875, 'mean_format_reward': 0.68359375, 'mean_answer_reward': 0.23046875, 'mean_advantage': 1.1641532182693481e-09, 'mean_group_baseline': 0.23046875, 'mean_group_normalizer': 0.17650193441659212, 'optimizer_updates': 32.0}; grpo_offpolicy/offpolicy_noclip_seed2: Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed2: {'step': 120, 'split': 'train', 'clip_count': 0.0, 'clip_total': 0.0, 'clip_fraction': 0.0, 'loss': nan, 'gradient_norm': nan, 'token_entropy': nan, 'num_response_tokens': 1276.96875, 'num_sequences': 8.0, 'num_active_sequences': 1.5, 'entropy_num_sequences': 1.5, 'mean_reward': 0.078125, 'mean_format_reward': 0.1796875, 'mean_answer_reward': 0.078125, 'mean_advantage': 4.656612873077393e-10, 'mean_group_baseline': 0.078125, 'mean_group_normalizer': 0.0856136754155159, 'optimizer_updates': 32.0}
+launch grpo_offpolicy/offpolicy_clip_seed0: GPU 0/1, port 8500
+launch grpo_offpolicy/offpolicy_clip_seed1: GPU 2/3, port 8501
+launch grpo_offpolicy/offpolicy_clip_seed2: GPU 4/5, port 8502
+launch grpo_offpolicy/offpolicy_clip_seed3: GPU 6/7, port 8503
+grpo_offpolicy/offpolicy_clip_seed2: failed
+grpo_offpolicy/offpolicy_clip_seed1: complete
+grpo_offpolicy/offpolicy_clip_seed3: complete
+grpo_offpolicy/offpolicy_clip_seed0: failed
+Continuing after failures: grpo_offpolicy/offpolicy_clip_seed2: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed2/startup.log; grpo_offpolicy/offpolicy_clip_seed0: Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed0: {'step': 136, 'split': 'train', 'clip_count': 296.59375, 'clip_total': 454.03125, 'clip_fraction': 0.6532452336705898, 'loss': 182523879489536.0, 'gradient_norm': inf, 'token_entropy': 0.0008428938162978739, 'num_response_tokens': 454.03125, 'num_sequences': 8.0, 'num_active_sequences': 0.5, 'entropy_num_sequences': 0.5, 'mean_reward': 0.01953125, 'mean_format_reward': 0.109375, 'mean_answer_reward': 0.01953125, 'mean_advantage': 4.656612873077393e-10, 'mean_group_baseline': 0.01953125, 'mean_group_normalizer': 0.030639350414276123, 'optimizer_updates': 32.0}
+launch grpo_offpolicy/offpolicy_gspo_seed0: GPU 0/1, port 8500
+launch grpo_offpolicy/offpolicy_gspo_seed1: GPU 2/3, port 8501
+launch grpo_offpolicy/offpolicy_gspo_seed2: GPU 4/5, port 8502
+launch grpo_offpolicy/offpolicy_gspo_seed3: GPU 6/7, port 8503
+grpo_offpolicy/offpolicy_gspo_seed3: failed
+grpo_offpolicy/offpolicy_gspo_seed0: complete
+grpo_offpolicy/offpolicy_gspo_seed1: complete
+grpo_offpolicy/offpolicy_gspo_seed2: complete
+Continuing after failures: grpo_offpolicy/offpolicy_gspo_seed3: exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed3/startup.log

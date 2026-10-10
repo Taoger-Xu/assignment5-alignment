@@ -18,7 +18,7 @@ run_one() {
   local out="${OUT_ROOT}/${method}_seed${seed}"
   mkdir -p "$out"
   echo "[$method seed=$seed] GPUs=$pair port=$port output=$out"
-  uv run python -u scripts/train_grpo.py \
+  uv run --locked --extra gpu python -u scripts/train_grpo.py \
     --model-path "$MODEL_PATH" --train-path "$TRAIN_PATH" --validation-path "$VAL_PATH" \
     --prompt-type r1_zero --num-steps "$STEPS" \
     --train-limit 6400 --validation-limit 1024 \

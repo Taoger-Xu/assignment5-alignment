@@ -1,0 +1,1342 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:32,  5.39it/s]Loading weights:  26%|██▋       | 47/179 [00:00<00:00, 200.54it/s]Loading weights:  51%|█████▏    | 92/179 [00:00<00:00, 292.83it/s]Loading weights:  82%|████████▏ | 146/179 [00:00<00:00, 359.15it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 324.67it/s]
+(EngineCore pid=16367) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(EngineCore pid=16367) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(EngineCore pid=16367) Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=16367) Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.09it/s]
+(EngineCore pid=16367) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.92it/s]
+(EngineCore pid=16367) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.72it/s]
+(EngineCore pid=16367) 
+(EngineCore pid=16367) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 6/51 [00:00<00:00, 52.78it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▎       | 12/51 [00:00<00:00, 54.56it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  35%|███▌      | 18/51 [00:00<00:00, 56.61it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  47%|████▋     | 24/51 [00:00<00:00, 57.55it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  59%|█████▉    | 30/51 [00:00<00:00, 57.52it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  71%|███████   | 36/51 [00:00<00:00, 58.22it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 42/51 [00:00<00:00, 58.66it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 48/51 [00:00<00:00, 55.98it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 51/51 [00:00<00:00, 54.81it/s]
+(EngineCore pid=16367) Capturing CUDA graphs (decode, FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  20%|██        | 7/35 [00:00<00:00, 66.19it/s]Capturing CUDA graphs (decode, FULL):  40%|████      | 14/35 [00:00<00:00, 67.57it/s]Capturing CUDA graphs (decode, FULL):  60%|██████    | 21/35 [00:00<00:00, 68.04it/s]Capturing CUDA graphs (decode, FULL):  80%|████████  | 28/35 [00:00<00:00, 68.67it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 68.72it/s]
+(APIServer pid=16277) INFO:     Started server process [16277]
+(APIServer pid=16277) INFO:     Waiting for application startup.
+(APIServer pid=16277) INFO:     Application startup complete.
+(APIServer pid=16277) INFO:     127.0.0.1:36276 - "GET /health HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36278 - "GET /get_world_size HTTP/1.1" 200 OK
+INFO 10-09 20:08:53 [pynccl.py:111] vLLM is using nccl==2.27.5
+(APIServer pid=16277) INFO:     127.0.0.1:36290 - "POST /init_weight_transfer_engine HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36300 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36314 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36320 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36322 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36332 - "POST /v1/completions HTTP/1.1" 200 OK
+WARNING: Error in configuration: macro '\frac' failed its substitution!
+WARNING: Error in configuration: macro '\frac' failed its substitution!
+(APIServer pid=16277) INFO:     127.0.0.1:46382 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46396 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46404 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46418 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46426 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33330 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33336 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33342 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33352 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33366 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 1/200] loss=-0.0017 reward=0.0039
+(APIServer pid=16277) INFO:     127.0.0.1:38020 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38024 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38040 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38046 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38052 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 2/200] loss=0.0000 reward=0.0000
+(APIServer pid=16277) INFO:     127.0.0.1:44412 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44420 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44424 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44436 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44444 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 3/200] loss=-0.0002 reward=0.0039
+(APIServer pid=16277) INFO:     127.0.0.1:44446 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44452 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44468 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44482 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44496 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 4/200] loss=0.0000 reward=0.0000
+(APIServer pid=16277) INFO:     127.0.0.1:50238 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50240 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50250 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50262 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50270 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 5/200] loss=-0.0026 reward=0.0078
+(APIServer pid=16277) INFO:     127.0.0.1:50278 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50286 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37662 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37670 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37686 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 6/200] loss=0.0011 reward=0.0078
+(APIServer pid=16277) INFO:     127.0.0.1:37696 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37708 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37716 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37728 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37742 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 7/200] loss=-0.0006 reward=0.0078
+(APIServer pid=16277) INFO:     127.0.0.1:54384 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54386 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54400 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54414 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54430 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 8/200] loss=-0.0080 reward=0.0156
+(APIServer pid=16277) INFO:     127.0.0.1:54442 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54456 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54460 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54462 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54478 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 9/200] loss=-0.0033 reward=0.0195
+(APIServer pid=16277) INFO:     127.0.0.1:37862 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37872 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37884 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37896 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37898 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37902 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37912 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52572 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52578 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52584 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 10/200] loss=-0.0007 reward=0.0469
+(APIServer pid=16277) INFO:     127.0.0.1:59586 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59592 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59608 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59614 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59616 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 11/200] loss=-0.0003 reward=0.0430
+(APIServer pid=16277) INFO:     127.0.0.1:59618 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59634 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59644 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59656 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59664 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 12/200] loss=0.0012 reward=0.0312
+(APIServer pid=16277) INFO:     127.0.0.1:44264 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44278 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44286 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44294 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44308 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 13/200] loss=-0.0023 reward=0.0820
+(APIServer pid=16277) INFO:     127.0.0.1:47474 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47482 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47484 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47498 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47508 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 14/200] loss=0.0014 reward=0.0664
+(APIServer pid=16277) INFO:     127.0.0.1:47524 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47532 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47540 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47548 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47562 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 15/200] loss=-0.0034 reward=0.0742
+(APIServer pid=16277) INFO:     127.0.0.1:55230 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55234 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55250 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55252 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55254 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 16/200] loss=-0.0068 reward=0.0977
+(APIServer pid=16277) INFO:     127.0.0.1:50076 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50088 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50092 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50102 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50104 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 17/200] loss=-0.0122 reward=0.1016
+(APIServer pid=16277) INFO:     127.0.0.1:56264 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56272 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56288 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56300 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56306 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 18/200] loss=-0.0053 reward=0.1641
+(APIServer pid=16277) INFO:     127.0.0.1:52078 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52080 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52092 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52106 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52120 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 19/200] loss=-0.0107 reward=0.1523
+(APIServer pid=16277) INFO:     127.0.0.1:52126 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52138 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52150 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52152 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52156 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59244 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59256 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59262 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59264 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59276 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 20/200] loss=-0.0115 reward=0.2734
+(APIServer pid=16277) INFO:     127.0.0.1:47892 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47900 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47902 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47918 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47934 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 21/200] loss=-0.0070 reward=0.2109
+(APIServer pid=16277) INFO:     127.0.0.1:47950 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47962 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47978 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47988 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48004 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 22/200] loss=-0.0152 reward=0.1523
+(APIServer pid=16277) INFO:     127.0.0.1:58530 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58534 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58552 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58568 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 23/200] loss=-0.0147 reward=0.2383
+(APIServer pid=16277) INFO:     127.0.0.1:42250 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42262 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42276 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42292 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42306 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 24/200] loss=-0.0154 reward=0.2422
+(APIServer pid=16277) INFO:     127.0.0.1:44762 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44770 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44778 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44786 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44794 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 25/200] loss=-0.0216 reward=0.3945
+(APIServer pid=16277) INFO:     127.0.0.1:41836 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41846 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41862 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41868 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41872 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 26/200] loss=-0.0064 reward=0.3125
+(APIServer pid=16277) INFO:     127.0.0.1:49882 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49898 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49904 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49920 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49924 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 27/200] loss=-0.0120 reward=0.3594
+(APIServer pid=16277) INFO:     127.0.0.1:52060 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52068 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52078 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52088 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52100 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 28/200] loss=-0.0124 reward=0.4023
+(APIServer pid=16277) INFO:     127.0.0.1:54222 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54224 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54228 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54242 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54252 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 29/200] loss=-0.0180 reward=0.3320
+(APIServer pid=16277) INFO:     127.0.0.1:33586 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33602 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33604 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33610 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33626 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60480 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60486 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60488 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60492 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60496 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 30/200] loss=-0.0047 reward=0.5078
+(APIServer pid=16277) INFO:     127.0.0.1:50320 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50324 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50334 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50342 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50350 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 31/200] loss=-0.0045 reward=0.3945
+(APIServer pid=16277) INFO:     127.0.0.1:39492 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39504 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39510 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39516 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39524 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 32/200] loss=-0.0114 reward=0.3555
+(APIServer pid=16277) INFO:     127.0.0.1:49530 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49534 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49544 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49550 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49554 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 33/200] loss=-0.0106 reward=0.5039
+(APIServer pid=16277) INFO:     127.0.0.1:58332 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58348 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58360 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58376 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58392 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 34/200] loss=-0.0196 reward=0.5078
+(APIServer pid=16277) INFO:     127.0.0.1:35424 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35432 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35434 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35436 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35442 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 35/200] loss=-0.0056 reward=0.3203
+(APIServer pid=16277) INFO:     127.0.0.1:60336 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60340 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60346 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60348 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60360 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 36/200] loss=-0.0072 reward=0.3086
+(APIServer pid=16277) INFO:     127.0.0.1:39354 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39360 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39366 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39382 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39392 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 37/200] loss=-0.0043 reward=0.3789
+(APIServer pid=16277) INFO:     127.0.0.1:33820 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33828 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33840 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33854 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33866 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 38/200] loss=-0.0092 reward=0.3945
+(APIServer pid=16277) INFO:     127.0.0.1:47968 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47970 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47980 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47988 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48002 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 39/200] loss=-0.0085 reward=0.4297
+(APIServer pid=16277) INFO:     127.0.0.1:48010 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48018 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48022 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48032 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48038 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48922 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48930 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48934 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48946 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48960 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 40/200] loss=-0.0028 reward=0.3789
+(APIServer pid=16277) INFO:     127.0.0.1:33854 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33856 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33866 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33874 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33880 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 41/200] loss=-0.0051 reward=0.4609
+(APIServer pid=16277) INFO:     127.0.0.1:49516 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49530 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49546 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49554 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49568 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 42/200] loss=-0.0066 reward=0.2812
+(APIServer pid=16277) INFO:     127.0.0.1:49574 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49590 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57966 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57968 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57976 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 43/200] loss=-0.0047 reward=0.3984
+(APIServer pid=16277) INFO:     127.0.0.1:57980 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57982 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57994 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57996 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58008 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 44/200] loss=-0.0084 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:34996 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35010 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35022 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35034 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35044 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 45/200] loss=-0.0061 reward=0.4297
+(APIServer pid=16277) INFO:     127.0.0.1:36774 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36784 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36790 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36792 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36794 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 46/200] loss=-0.0099 reward=0.5703
+(APIServer pid=16277) INFO:     127.0.0.1:56648 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56654 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56662 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56670 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56682 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 47/200] loss=-0.0033 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:43980 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43986 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43994 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44002 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44006 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 48/200] loss=-0.0006 reward=0.4375
+(APIServer pid=16277) INFO:     127.0.0.1:41538 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41540 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41546 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41558 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 49/200] loss=-0.0008 reward=0.4766
+(APIServer pid=16277) INFO:     127.0.0.1:41562 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41576 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35184 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35188 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35190 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35202 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35214 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35222 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35224 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35226 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1/checkpoints/step_000050
+[step 50/200] loss=-0.0046 reward=0.4922
+(APIServer pid=16277) INFO:     127.0.0.1:49030 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49034 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49042 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49056 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49072 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 51/200] loss=-0.0153 reward=0.3828
+(APIServer pid=16277) INFO:     127.0.0.1:49078 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49086 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49088 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49100 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49110 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 52/200] loss=-0.0048 reward=0.5352
+(APIServer pid=16277) INFO:     127.0.0.1:54332 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54338 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54350 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54358 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54360 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 53/200] loss=-0.0056 reward=0.5664
+(APIServer pid=16277) INFO:     127.0.0.1:59532 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59540 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59552 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59558 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59574 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 54/200] loss=-0.0114 reward=0.4961
+(APIServer pid=16277) INFO:     127.0.0.1:37114 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37130 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37140 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37142 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37146 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 55/200] loss=-0.0108 reward=0.4336
+(APIServer pid=16277) INFO:     127.0.0.1:45786 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45798 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45808 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45810 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45826 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 56/200] loss=-0.0075 reward=0.3594
+(APIServer pid=16277) INFO:     127.0.0.1:50876 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50882 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50884 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50898 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50908 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 57/200] loss=-0.0063 reward=0.4336
+(APIServer pid=16277) INFO:     127.0.0.1:50824 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50838 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50850 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50864 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50866 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 58/200] loss=-0.0063 reward=0.3281
+(APIServer pid=16277) INFO:     127.0.0.1:36710 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36712 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36724 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36740 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36752 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 59/200] loss=-0.0036 reward=0.4258
+(APIServer pid=16277) INFO:     127.0.0.1:33298 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33308 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33318 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33330 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33342 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57208 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57218 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57226 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57240 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57246 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 60/200] loss=-0.0054 reward=0.4453
+(APIServer pid=16277) INFO:     127.0.0.1:38424 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38434 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38440 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38452 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38458 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 61/200] loss=-0.0044 reward=0.4609
+(APIServer pid=16277) INFO:     127.0.0.1:46660 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46666 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46668 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46680 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46686 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 62/200] loss=-0.0063 reward=0.3477
+(APIServer pid=16277) INFO:     127.0.0.1:39592 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39604 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39618 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39620 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39624 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 63/200] loss=-0.0029 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:39626 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39634 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39636 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39644 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39652 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 64/200] loss=-0.0081 reward=0.3945
+(APIServer pid=16277) INFO:     127.0.0.1:35554 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35568 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35572 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35582 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35588 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 65/200] loss=-0.0047 reward=0.5195
+(APIServer pid=16277) INFO:     127.0.0.1:35728 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35730 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35736 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35748 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35752 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 66/200] loss=-0.0001 reward=0.5117
+(APIServer pid=16277) INFO:     127.0.0.1:46302 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46308 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46314 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46324 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46340 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 67/200] loss=-0.0049 reward=0.3789
+(APIServer pid=16277) INFO:     127.0.0.1:43554 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43556 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43558 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43570 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43586 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 68/200] loss=-0.0096 reward=0.6094
+(APIServer pid=16277) INFO:     127.0.0.1:38940 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38948 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38952 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38964 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38976 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 69/200] loss=-0.0037 reward=0.5117
+(APIServer pid=16277) INFO:     127.0.0.1:38984 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38986 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38994 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39008 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39020 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52078 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52092 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52106 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52118 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52124 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 70/200] loss=-0.0035 reward=0.5000
+(APIServer pid=16277) INFO:     127.0.0.1:59462 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59466 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59480 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59482 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59496 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 71/200] loss=-0.0012 reward=0.5625
+(APIServer pid=16277) INFO:     127.0.0.1:55178 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55184 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55198 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55206 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55222 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 72/200] loss=-0.0037 reward=0.3750
+(APIServer pid=16277) INFO:     127.0.0.1:50834 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50838 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50850 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50854 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50866 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 73/200] loss=-0.0059 reward=0.4570
+(APIServer pid=16277) INFO:     127.0.0.1:43984 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43986 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43988 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44002 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44006 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 74/200] loss=-0.0031 reward=0.4375
+(APIServer pid=16277) INFO:     127.0.0.1:45006 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45012 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45022 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45026 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45028 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 75/200] loss=-0.0104 reward=0.3984
+(APIServer pid=16277) INFO:     127.0.0.1:42426 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42430 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42442 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42444 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42460 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 76/200] loss=-0.0022 reward=0.5586
+(APIServer pid=16277) INFO:     127.0.0.1:42468 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42472 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42482 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42492 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42502 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 77/200] loss=-0.0122 reward=0.4375
+(APIServer pid=16277) INFO:     127.0.0.1:41534 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41536 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41548 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41550 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 78/200] loss=-0.0034 reward=0.4102
+(APIServer pid=16277) INFO:     127.0.0.1:47978 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47984 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47990 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47998 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48006 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 79/200] loss=0.0001 reward=0.4414
+(APIServer pid=16277) INFO:     127.0.0.1:46352 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46366 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46372 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46378 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46384 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41418 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41434 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41444 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41458 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41466 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 80/200] loss=-0.0022 reward=0.4922
+(APIServer pid=16277) INFO:     127.0.0.1:60076 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60078 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60082 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60090 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60098 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 81/200] loss=-0.0084 reward=0.4844
+(APIServer pid=16277) INFO:     127.0.0.1:37596 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37610 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37620 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37628 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37640 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 82/200] loss=-0.0050 reward=0.4844
+(APIServer pid=16277) INFO:     127.0.0.1:38472 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38474 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38478 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38492 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38504 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 83/200] loss=-0.0085 reward=0.5391
+(APIServer pid=16277) INFO:     127.0.0.1:38518 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38524 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35824 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35838 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35852 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 84/200] loss=-0.0005 reward=0.4336
+(APIServer pid=16277) INFO:     127.0.0.1:35864 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35870 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35882 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35896 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35898 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 85/200] loss=0.0008 reward=0.4258
+(APIServer pid=16277) INFO:     127.0.0.1:60010 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60018 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60026 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60030 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60046 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 86/200] loss=-0.0028 reward=0.4688
+(APIServer pid=16277) INFO:     127.0.0.1:57322 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57326 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57328 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57338 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57346 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 87/200] loss=-0.0049 reward=0.4766
+(APIServer pid=16277) INFO:     127.0.0.1:40226 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40228 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40232 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40246 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40252 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 88/200] loss=-0.0045 reward=0.5469
+(APIServer pid=16277) INFO:     127.0.0.1:50510 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50514 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50528 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50532 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50536 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 89/200] loss=-0.0048 reward=0.4609
+(APIServer pid=16277) INFO:     127.0.0.1:40924 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40928 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40932 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40940 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40948 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54232 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54246 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54260 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54266 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54274 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 90/200] loss=-0.0140 reward=0.4023
+(APIServer pid=16277) INFO:     127.0.0.1:32768 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:32778 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:32794 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:32810 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:32812 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 91/200] loss=-0.0067 reward=0.4414
+(APIServer pid=16277) INFO:     127.0.0.1:49944 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49958 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49972 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49982 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49998 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 92/200] loss=-0.0048 reward=0.3789
+(APIServer pid=16277) INFO:     127.0.0.1:44774 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44782 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44790 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44800 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44814 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 93/200] loss=-0.0022 reward=0.4688
+(APIServer pid=16277) INFO:     127.0.0.1:42270 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42274 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42276 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42292 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42298 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 94/200] loss=-0.0012 reward=0.3867
+(APIServer pid=16277) INFO:     127.0.0.1:53892 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53906 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53922 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53926 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53930 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 95/200] loss=-0.0056 reward=0.5039
+(APIServer pid=16277) INFO:     127.0.0.1:54558 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54568 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54570 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54580 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54586 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 96/200] loss=-0.0003 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:34198 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34210 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34220 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34230 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34244 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 97/200] loss=-0.0080 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:53398 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53414 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53424 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53438 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53446 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 98/200] loss=-0.0040 reward=0.5039
+(APIServer pid=16277) INFO:     127.0.0.1:41942 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41950 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41954 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41970 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41986 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 99/200] loss=-0.0040 reward=0.4336
+(APIServer pid=16277) INFO:     127.0.0.1:41996 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42008 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42012 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42026 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42034 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39092 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39106 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39116 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39120 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39122 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.76s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1/checkpoints/step_000100
+[step 100/200] loss=-0.0004 reward=0.3633
+(APIServer pid=16277) INFO:     127.0.0.1:43372 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43374 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43382 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43386 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43390 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 101/200] loss=-0.0115 reward=0.4805
+(APIServer pid=16277) INFO:     127.0.0.1:49304 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49310 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49324 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49326 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:49328 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 102/200] loss=0.0008 reward=0.5039
+(APIServer pid=16277) INFO:     127.0.0.1:43940 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43944 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43956 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43962 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43970 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 103/200] loss=-0.0019 reward=0.3555
+(APIServer pid=16277) INFO:     127.0.0.1:33728 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33736 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33752 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33760 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33774 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 104/200] loss=-0.0032 reward=0.4766
+(APIServer pid=16277) INFO:     127.0.0.1:60726 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60738 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60742 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60754 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60762 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 105/200] loss=-0.0040 reward=0.5586
+(APIServer pid=16277) INFO:     127.0.0.1:53668 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53674 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53690 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53700 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53708 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 106/200] loss=-0.0022 reward=0.3906
+(APIServer pid=16277) INFO:     127.0.0.1:52878 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52880 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52882 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52892 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52898 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 107/200] loss=-0.0075 reward=0.4531
+(APIServer pid=16277) INFO:     127.0.0.1:33936 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33948 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33950 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33956 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33964 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 108/200] loss=-0.0005 reward=0.5508
+(APIServer pid=16277) INFO:     127.0.0.1:40886 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40888 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40892 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40894 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40904 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 109/200] loss=-0.0130 reward=0.6211
+(APIServer pid=16277) INFO:     127.0.0.1:40908 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40916 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40918 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40932 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40946 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58300 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58306 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58318 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58326 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58334 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 110/200] loss=-0.0015 reward=0.5898
+(APIServer pid=16277) INFO:     127.0.0.1:60006 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60022 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60028 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60032 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60036 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 111/200] loss=-0.0152 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:51430 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:51436 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:51438 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:51454 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:51458 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 112/200] loss=-0.0007 reward=0.4648
+(APIServer pid=16277) INFO:     127.0.0.1:33608 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33612 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33620 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33630 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33640 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 113/200] loss=-0.0091 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:33648 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33654 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33658 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33674 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33682 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 114/200] loss=-0.0061 reward=0.4570
+(APIServer pid=16277) INFO:     127.0.0.1:33232 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33242 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33248 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33252 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33254 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 115/200] loss=-0.0036 reward=0.4336
+(APIServer pid=16277) INFO:     127.0.0.1:58572 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58580 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58582 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58592 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58606 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 116/200] loss=-0.0000 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:54834 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54846 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54850 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54860 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54864 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 117/200] loss=0.0001 reward=0.6211
+(APIServer pid=16277) INFO:     127.0.0.1:45556 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45564 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45566 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45570 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45582 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 118/200] loss=-0.0051 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:33692 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33702 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33714 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33716 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33722 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 119/200] loss=-0.0032 reward=0.4141
+(APIServer pid=16277) INFO:     127.0.0.1:33728 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33734 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33746 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33754 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33770 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41190 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41198 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41204 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41208 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41212 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 120/200] loss=-0.0015 reward=0.4844
+(APIServer pid=16277) INFO:     127.0.0.1:33620 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33634 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33646 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33648 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33654 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 121/200] loss=-0.0031 reward=0.4883
+(APIServer pid=16277) INFO:     127.0.0.1:35440 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35456 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35462 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35478 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35492 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 122/200] loss=-0.0028 reward=0.4102
+(APIServer pid=16277) INFO:     127.0.0.1:52584 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52592 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52594 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52600 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52602 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 123/200] loss=-0.0045 reward=0.3672
+(APIServer pid=16277) INFO:     127.0.0.1:38752 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38754 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38758 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38768 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38778 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 124/200] loss=-0.0047 reward=0.3555
+(APIServer pid=16277) INFO:     127.0.0.1:39418 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39422 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39430 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39432 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39448 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 125/200] loss=-0.0021 reward=0.5703
+(APIServer pid=16277) INFO:     127.0.0.1:32996 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33006 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33016 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33018 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33020 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 126/200] loss=-0.0041 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:33024 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33032 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33034 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33042 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:33046 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 127/200] loss=-0.0013 reward=0.3906
+(APIServer pid=16277) INFO:     127.0.0.1:48138 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48154 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48160 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48166 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48182 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 128/200] loss=-0.0043 reward=0.5625
+(APIServer pid=16277) INFO:     127.0.0.1:53060 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53064 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53078 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53084 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53098 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 129/200] loss=-0.0040 reward=0.6211
+(APIServer pid=16277) INFO:     127.0.0.1:58138 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58142 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58150 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58164 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58174 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43816 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43832 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43838 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43846 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:43852 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 130/200] loss=-0.0038 reward=0.5625
+(APIServer pid=16277) INFO:     127.0.0.1:60778 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60782 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60792 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60808 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60824 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 131/200] loss=-0.0044 reward=0.5938
+(APIServer pid=16277) INFO:     127.0.0.1:38296 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38308 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38316 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38324 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38330 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 132/200] loss=-0.0045 reward=0.5859
+(APIServer pid=16277) INFO:     127.0.0.1:58078 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58086 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58098 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58108 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58114 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 133/200] loss=-0.0013 reward=0.4766
+(APIServer pid=16277) INFO:     127.0.0.1:59030 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59046 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59060 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59072 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59088 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 134/200] loss=-0.0004 reward=0.5117
+(APIServer pid=16277) INFO:     127.0.0.1:56258 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56270 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56276 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56284 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56290 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 135/200] loss=-0.0023 reward=0.6719
+(APIServer pid=16277) INFO:     127.0.0.1:56292 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56300 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56312 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56326 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56330 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 136/200] loss=-0.0020 reward=0.5391
+(APIServer pid=16277) INFO:     127.0.0.1:50448 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50464 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50470 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50482 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50490 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 137/200] loss=-0.0002 reward=0.4023
+(APIServer pid=16277) INFO:     127.0.0.1:52526 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52528 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52544 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52550 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 138/200] loss=-0.0012 reward=0.5195
+(APIServer pid=16277) INFO:     127.0.0.1:39200 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39206 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39216 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39230 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39234 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 139/200] loss=-0.0007 reward=0.5078
+(APIServer pid=16277) INFO:     127.0.0.1:35436 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35442 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35446 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35462 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35468 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58410 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58416 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58422 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58426 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58440 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 140/200] loss=-0.0028 reward=0.4375
+(APIServer pid=16277) INFO:     127.0.0.1:45826 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45828 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45834 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45838 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:45850 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 141/200] loss=-0.0003 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:41632 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41648 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41652 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41660 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:41674 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 142/200] loss=-0.0070 reward=0.5938
+(APIServer pid=16277) INFO:     127.0.0.1:42124 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42140 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42152 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42168 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42170 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 143/200] loss=-0.0027 reward=0.4453
+(APIServer pid=16277) INFO:     127.0.0.1:50606 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50622 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50632 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50648 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50654 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 144/200] loss=-0.0035 reward=0.5352
+(APIServer pid=16277) INFO:     127.0.0.1:57566 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57578 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57594 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57606 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57608 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 145/200] loss=-0.0017 reward=0.5234
+(APIServer pid=16277) INFO:     127.0.0.1:57622 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57632 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56742 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56754 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56770 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 146/200] loss=-0.0094 reward=0.6836
+(APIServer pid=16277) INFO:     127.0.0.1:56774 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56786 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56800 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56808 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56824 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 147/200] loss=0.0013 reward=0.5859
+(APIServer pid=16277) INFO:     127.0.0.1:48640 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48650 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48656 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48672 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48678 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 148/200] loss=-0.0018 reward=0.4375
+(APIServer pid=16277) INFO:     127.0.0.1:35204 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35210 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35226 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35234 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35236 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 149/200] loss=-0.0027 reward=0.6680
+(APIServer pid=16277) INFO:     127.0.0.1:35446 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35448 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35458 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35460 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35470 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35476 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35484 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35486 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35502 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35518 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.77s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.77s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1/checkpoints/step_000150
+[step 150/200] loss=-0.0028 reward=0.5586
+(APIServer pid=16277) INFO:     127.0.0.1:52128 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52140 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52146 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52162 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52178 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 151/200] loss=-0.0013 reward=0.4570
+(APIServer pid=16277) INFO:     127.0.0.1:52188 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:52196 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55628 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55644 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55658 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 152/200] loss=-0.0069 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:55664 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55678 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55686 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55702 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55718 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 153/200] loss=-0.0044 reward=0.5391
+(APIServer pid=16277) INFO:     127.0.0.1:35946 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35952 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35966 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35970 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:35984 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 154/200] loss=-0.0016 reward=0.4414
+(APIServer pid=16277) INFO:     127.0.0.1:42368 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42384 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42386 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42390 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42398 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 155/200] loss=-0.0016 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:53104 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53114 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53126 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53134 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53146 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 156/200] loss=-0.0036 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:39568 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39580 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39584 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39598 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39610 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 157/200] loss=-0.0021 reward=0.5469
+(APIServer pid=16277) INFO:     127.0.0.1:46594 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46610 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46624 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46632 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46634 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 158/200] loss=-0.0039 reward=0.5234
+(APIServer pid=16277) INFO:     127.0.0.1:54158 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54172 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54178 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54188 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54198 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 159/200] loss=-0.0017 reward=0.6562
+(APIServer pid=16277) INFO:     127.0.0.1:54214 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54224 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54232 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54234 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54246 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57530 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57538 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57540 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:57552 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53094 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 160/200] loss=-0.0031 reward=0.4922
+(APIServer pid=16277) INFO:     127.0.0.1:34242 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34256 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34270 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34282 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:34294 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 161/200] loss=-0.0224 reward=0.5820
+(APIServer pid=16277) INFO:     127.0.0.1:39474 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39490 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39492 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39496 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39512 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 162/200] loss=-0.0006 reward=0.5742
+(APIServer pid=16277) INFO:     127.0.0.1:42026 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42040 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42052 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42058 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42068 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 163/200] loss=-0.0028 reward=0.5469
+(APIServer pid=16277) INFO:     127.0.0.1:59596 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59602 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59610 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59618 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:59626 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 164/200] loss=-0.0003 reward=0.5273
+(APIServer pid=16277) INFO:     127.0.0.1:46592 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46608 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46612 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46614 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46618 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 165/200] loss=-0.0005 reward=0.5273
+(APIServer pid=16277) INFO:     127.0.0.1:46632 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46648 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37418 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37430 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37434 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 166/200] loss=-0.0040 reward=0.5078
+(APIServer pid=16277) INFO:     127.0.0.1:37450 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37454 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37460 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37462 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37474 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 167/200] loss=-0.0044 reward=0.6094
+(APIServer pid=16277) INFO:     127.0.0.1:60706 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60712 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60722 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60732 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60746 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 168/200] loss=-0.0040 reward=0.3828
+(APIServer pid=16277) INFO:     127.0.0.1:47424 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47428 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47432 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47438 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:47448 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 169/200] loss=-0.0039 reward=0.3594
+(APIServer pid=16277) INFO:     127.0.0.1:56858 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56864 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56872 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56884 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56890 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58874 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58880 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58888 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58904 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58916 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 170/200] loss=-0.0094 reward=0.3945
+(APIServer pid=16277) INFO:     127.0.0.1:42086 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42102 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42110 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42122 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:42134 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 171/200] loss=-0.0019 reward=0.4766
+(APIServer pid=16277) INFO:     127.0.0.1:54854 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54864 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54872 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54888 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54896 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 172/200] loss=-0.0017 reward=0.5898
+(APIServer pid=16277) INFO:     127.0.0.1:54910 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40310 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40326 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40328 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40332 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 173/200] loss=-0.0038 reward=0.4609
+(APIServer pid=16277) INFO:     127.0.0.1:40340 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40354 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40364 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40380 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40392 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 174/200] loss=-0.0052 reward=0.6094
+(APIServer pid=16277) INFO:     127.0.0.1:39218 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39226 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39236 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39242 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39250 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 175/200] loss=-0.0069 reward=0.5898
+(APIServer pid=16277) INFO:     127.0.0.1:39904 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39916 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39924 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39936 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39938 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 176/200] loss=-0.0026 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:46098 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46112 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46124 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46128 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46138 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 177/200] loss=-0.0032 reward=0.5664
+(APIServer pid=16277) INFO:     127.0.0.1:56668 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56680 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56694 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56698 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56712 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 178/200] loss=-0.0023 reward=0.5117
+(APIServer pid=16277) INFO:     127.0.0.1:56728 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60912 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60914 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60922 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60928 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 179/200] loss=-0.0050 reward=0.4727
+(APIServer pid=16277) INFO:     127.0.0.1:60936 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60948 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60956 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60970 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60972 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54672 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54688 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54692 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54702 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:54704 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 180/200] loss=-0.0043 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:46426 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46442 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46444 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46446 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:46454 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 181/200] loss=0.0029 reward=0.5000
+(APIServer pid=16277) INFO:     127.0.0.1:36346 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36360 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36374 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36382 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36388 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 182/200] loss=-0.0018 reward=0.4883
+(APIServer pid=16277) INFO:     127.0.0.1:58936 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58940 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58952 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58956 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:58968 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 183/200] loss=-0.0010 reward=0.4922
+(APIServer pid=16277) INFO:     127.0.0.1:38536 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38540 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38550 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38560 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 184/200] loss=-0.0011 reward=0.5312
+(APIServer pid=16277) INFO:     127.0.0.1:38574 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38588 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40220 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40234 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40238 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 185/200] loss=-0.0012 reward=0.6211
+(APIServer pid=16277) INFO:     127.0.0.1:40240 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40254 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40266 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40274 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:40290 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 186/200] loss=0.0007 reward=0.4219
+(APIServer pid=16277) INFO:     127.0.0.1:53134 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53146 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53152 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53156 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:53158 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 187/200] loss=-0.0126 reward=0.5938
+(APIServer pid=16277) INFO:     127.0.0.1:37718 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37724 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37740 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37744 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37758 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 188/200] loss=-0.0032 reward=0.5742
+(APIServer pid=16277) INFO:     127.0.0.1:39580 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39594 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39608 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39616 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:39618 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 189/200] loss=-0.0023 reward=0.4883
+(APIServer pid=16277) INFO:     127.0.0.1:37468 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37476 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37484 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37500 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37506 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37518 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37534 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37550 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37558 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:37560 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 190/200] loss=-0.0018 reward=0.5078
+(APIServer pid=16277) INFO:     127.0.0.1:60704 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60720 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60724 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60726 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:60740 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 191/200] loss=-0.0016 reward=0.5039
+(APIServer pid=16277) INFO:     127.0.0.1:44742 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44746 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44748 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44756 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:44760 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 192/200] loss=-0.0044 reward=0.5156
+(APIServer pid=16277) INFO:     127.0.0.1:48162 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48170 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48184 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48188 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48196 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 193/200] loss=-0.0013 reward=0.6055
+(APIServer pid=16277) INFO:     127.0.0.1:55736 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55744 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55752 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55766 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55780 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 194/200] loss=-0.0016 reward=0.6094
+(APIServer pid=16277) INFO:     127.0.0.1:55796 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55804 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55820 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55836 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:55850 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 195/200] loss=-0.0041 reward=0.5000
+(APIServer pid=16277) INFO:     127.0.0.1:50222 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50232 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50242 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50250 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50262 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 196/200] loss=-0.0090 reward=0.6328
+(APIServer pid=16277) INFO:     127.0.0.1:50696 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50712 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50728 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50740 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:50748 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 197/200] loss=-0.0047 reward=0.5430
+(APIServer pid=16277) INFO:     127.0.0.1:56352 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56366 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56382 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56388 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:56402 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 198/200] loss=-0.0039 reward=0.4648
+(APIServer pid=16277) INFO:     127.0.0.1:36070 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36082 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36092 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36100 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:36106 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 199/200] loss=-0.0030 reward=0.4922
+(APIServer pid=16277) INFO:     127.0.0.1:48020 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48026 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48032 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48046 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:48062 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38212 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38218 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38232 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38240 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=16277) INFO:     127.0.0.1:38250 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.81s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.81s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1/checkpoints/step_000200
+[step 200/200] loss=-0.0014 reward=0.4375
+(APIServer pid=16277) INFO:     Shutting down
+(APIServer pid=16277) INFO:     Waiting for application shutdown.
+(APIServer pid=16277) INFO:     Application shutdown complete.
+(APIServer pid=16277) INFO:     Finished server process [16277]

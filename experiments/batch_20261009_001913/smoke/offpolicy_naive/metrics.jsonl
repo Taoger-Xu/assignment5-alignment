@@ -1,0 +1,3 @@
+{"step": 0, "split": "val", "total_reward": 0.0, "format_reward": 0.5, "answer_reward": 0.0, "accuracy": 0.0, "avg_response_length": 324.125}
+{"step": 1, "split": "train", "clip_count": 0.0, "clip_total": 0.0, "clip_fraction": 0.0, "loss": 0.0, "gradient_norm": 0.0, "token_entropy": 0.0, "num_response_tokens": 0.0, "num_sequences": 8.0, "num_active_sequences": 0.0, "entropy_num_sequences": 0.0, "mean_reward": 0.0, "mean_format_reward": 0.55859375, "mean_answer_reward": 0.0, "mean_advantage": 0.0, "mean_group_baseline": 0.0, "mean_group_normalizer": 0.0, "optimizer_updates": 32.0}
+{"step": 1, "split": "val", "total_reward": 0.0, "format_reward": 0.5, "answer_reward": 0.0, "accuracy": 0.0, "avg_response_length": 324.125}

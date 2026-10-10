@@ -1,0 +1,39 @@
+[
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_3_unformatted_and_wrong": 345,
+      "category_2_formatted_but_wrong": 95
+    },
+    "mean_format_reward": 0.2159090909090909,
+    "mean_answer_reward": 0.0,
+    "mean_reward": 0.0,
+    "prompt_name": "question_only",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu4/question_only.jsonl"
+  },
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_2_formatted_but_wrong": 293,
+      "category_3_unformatted_and_wrong": 147
+    },
+    "mean_format_reward": 0.6659090909090909,
+    "mean_answer_reward": 0.0,
+    "mean_reward": 0.0,
+    "prompt_name": "r1_zero",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu4/r1_zero.jsonl"
+  },
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_2_formatted_but_wrong": 330,
+      "category_1_correct_and_formatted": 92,
+      "category_3_unformatted_and_wrong": 18
+    },
+    "mean_format_reward": 0.9590909090909091,
+    "mean_answer_reward": 0.20909090909090908,
+    "mean_reward": 0.20909090909090908,
+    "prompt_name": "r1_zero_three_shot",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu4/r1_zero_three_shot.jsonl"
+  }
+]

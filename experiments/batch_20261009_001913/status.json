@@ -1,0 +1,1487 @@
+{
+  "state": "finished_with_errors",
+  "pid": 13159,
+  "jobs": {
+    "smoke/standard": {
+      "state": "complete",
+      "pid": 51421,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard",
+      "started": 1791476366.2284424,
+      "exit_code": 0,
+      "finished": 1791476446.2369072,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/lr_low": {
+      "state": "complete",
+      "pid": 51422,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/lr_low",
+      "started": 1791476366.2303324,
+      "exit_code": 0,
+      "finished": 1791476446.2465227,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/lr_high": {
+      "state": "complete",
+      "pid": 51423,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/lr_high",
+      "started": 1791476366.2320695,
+      "exit_code": 0,
+      "finished": 1791476446.2536554,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/question_only": {
+      "state": "complete",
+      "pid": 51424,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/question_only",
+      "started": 1791476366.2338612,
+      "exit_code": 0,
+      "finished": 1791476456.2582686,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.375,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 1289.75
+      }
+    },
+    "smoke/three_shot": {
+      "state": "complete",
+      "pid": 53198,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/three_shot",
+      "started": 1791476566.8864484,
+      "exit_code": 0,
+      "finished": 1791476666.9279864,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.25,
+        "format_reward": 1.0,
+        "answer_reward": 0.25,
+        "accuracy": 0.25,
+        "avg_response_length": 272.0
+      }
+    },
+    "smoke/GRPO_constant": {
+      "state": "complete",
+      "pid": 53199,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/GRPO_constant",
+      "started": 1791476566.8930302,
+      "exit_code": 0,
+      "finished": 1791476646.8973253,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/Dr_GRPO": {
+      "state": "complete",
+      "pid": 53200,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/Dr_GRPO",
+      "started": 1791476566.8938825,
+      "exit_code": 0,
+      "finished": 1791476646.9077706,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/RFT": {
+      "state": "complete",
+      "pid": 53201,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/RFT",
+      "started": 1791476566.8947802,
+      "exit_code": 0,
+      "finished": 1791476646.9177065,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/MaxRL": {
+      "state": "complete",
+      "pid": 53963,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/MaxRL",
+      "started": 1791476666.9453304,
+      "exit_code": 0,
+      "finished": 1791476746.954797,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/offpolicy_naive": {
+      "state": "complete",
+      "pid": 53964,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_naive",
+      "started": 1791476666.9475112,
+      "exit_code": 0,
+      "finished": 1791476751.9686282,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/offpolicy_noclip": {
+      "state": "complete",
+      "pid": 53965,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_noclip",
+      "started": 1791476666.949295,
+      "exit_code": 0,
+      "finished": 1791476751.9792073,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/offpolicy_clip": {
+      "state": "complete",
+      "pid": 53966,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_clip",
+      "started": 1791476666.9509683,
+      "exit_code": 0,
+      "finished": 1791476766.9910274,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/offpolicy_gspo": {
+      "state": "complete",
+      "pid": 54723,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_gspo",
+      "started": 1791476767.0039825,
+      "exit_code": 0,
+      "finished": 1791476852.0620694,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/standard_seed1": {
+      "state": "complete",
+      "pid": 54724,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed1",
+      "started": 1791476767.005863,
+      "exit_code": 0,
+      "finished": 1791476857.0769098,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.625,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 486.25
+      }
+    },
+    "smoke/standard_seed2": {
+      "state": "complete",
+      "pid": 54725,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed2",
+      "started": 1791476767.0079823,
+      "exit_code": 0,
+      "finished": 1791476847.018574,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.125,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 303.0
+      }
+    },
+    "smoke/standard_seed3": {
+      "state": "complete",
+      "pid": 54726,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed3",
+      "started": 1791476767.0098045,
+      "exit_code": 0,
+      "finished": 1791476847.0352147,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.125,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 352.75
+      }
+    },
+    "grpo_debug/seed0": {
+      "state": "cancelled",
+      "pid": 55483,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_debug/seed0",
+      "started": 1791476857.0920348,
+      "reason": "User requested skipping repeated debug and starting formal experiments"
+    },
+    "grpo_standard/seed0": {
+      "state": "complete",
+      "pid": 55994,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed0",
+      "started": 1791477103.930366,
+      "exit_code": 0,
+      "finished": 1791479579.112015,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4541015625,
+        "format_reward": 0.947265625,
+        "answer_reward": 0.4541015625,
+        "accuracy": 0.4541015625,
+        "avg_response_length": 500.3984375
+      }
+    },
+    "grpo_standard/seed1": {
+      "state": "complete",
+      "pid": 55995,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed1",
+      "started": 1791477103.9313624,
+      "exit_code": 0,
+      "finished": 1791479614.166322,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.451171875,
+        "format_reward": 0.8466796875,
+        "answer_reward": 0.451171875,
+        "accuracy": 0.451171875,
+        "avg_response_length": 451.4609375
+      }
+    },
+    "grpo_standard/seed2": {
+      "state": "complete",
+      "pid": 55996,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed2",
+      "started": 1791477103.9322846,
+      "exit_code": 0,
+      "finished": 1791479569.0525746,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.45703125,
+        "format_reward": 0.828125,
+        "answer_reward": 0.45703125,
+        "accuracy": 0.45703125,
+        "avg_response_length": 476.9423828125
+      }
+    },
+    "grpo_standard/seed3": {
+      "state": "complete",
+      "pid": 55997,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed3",
+      "started": 1791477103.9331858,
+      "exit_code": 0,
+      "finished": 1791479513.993075,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4677734375,
+        "format_reward": 0.90625,
+        "answer_reward": 0.4677734375,
+        "accuracy": 0.4677734375,
+        "avg_response_length": 420.9677734375
+      }
+    },
+    "lr_sweep/lr_5e-6_seed0": {
+      "state": "complete",
+      "pid": 59878,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed0",
+      "started": 1791479614.2366772,
+      "exit_code": 0,
+      "finished": 1791481979.3062775,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.37890625,
+        "format_reward": 0.892578125,
+        "answer_reward": 0.37890625,
+        "accuracy": 0.37890625,
+        "avg_response_length": 487.71484375
+      }
+    },
+    "lr_sweep/lr_5e-6_seed1": {
+      "state": "complete",
+      "pid": 59879,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed1",
+      "started": 1791479614.2380419,
+      "exit_code": 0,
+      "finished": 1791482099.4241176,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.369140625,
+        "format_reward": 0.93359375,
+        "answer_reward": 0.369140625,
+        "accuracy": 0.369140625,
+        "avg_response_length": 422.865234375
+      }
+    },
+    "lr_sweep/lr_5e-6_seed2": {
+      "state": "complete",
+      "pid": 59880,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed2",
+      "started": 1791479614.2394347,
+      "exit_code": 0,
+      "finished": 1791482114.4782295,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4013671875,
+        "format_reward": 0.88671875,
+        "answer_reward": 0.4013671875,
+        "accuracy": 0.4013671875,
+        "avg_response_length": 477.431640625
+      }
+    },
+    "lr_sweep/lr_5e-6_seed3": {
+      "state": "complete",
+      "pid": 59881,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed3",
+      "started": 1791479614.2407486,
+      "exit_code": 0,
+      "finished": 1791482009.3641493,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.396484375,
+        "format_reward": 0.9111328125,
+        "answer_reward": 0.396484375,
+        "accuracy": 0.396484375,
+        "avg_response_length": 407.177734375
+      }
+    },
+    "lr_sweep/lr_2e-5_seed0": {
+      "state": "complete",
+      "pid": 62794,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed0",
+      "started": 1791482114.5343823,
+      "exit_code": 0,
+      "finished": 1791484039.5861633,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.06640625,
+        "format_reward": 0.998046875,
+        "answer_reward": 0.06640625,
+        "accuracy": 0.06640625,
+        "avg_response_length": 33.6640625
+      }
+    },
+    "lr_sweep/lr_2e-5_seed1": {
+      "state": "complete",
+      "pid": 62795,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed1",
+      "started": 1791482114.5356908,
+      "exit_code": 0,
+      "finished": 1791484679.708939,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4775390625,
+        "format_reward": 0.958984375,
+        "answer_reward": 0.4775390625,
+        "accuracy": 0.4775390625,
+        "avg_response_length": 485.978515625
+      }
+    },
+    "lr_sweep/lr_2e-5_seed2": {
+      "state": "complete",
+      "pid": 62796,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed2",
+      "started": 1791482114.537182,
+      "exit_code": 0,
+      "finished": 1791484764.7764647,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 3198.552734375
+      }
+    },
+    "lr_sweep/lr_2e-5_seed3": {
+      "state": "complete",
+      "pid": 62797,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed3",
+      "started": 1791482114.5384986,
+      "exit_code": 0,
+      "finished": 1791484459.647169,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0263671875,
+        "format_reward": 0.05859375,
+        "answer_reward": 0.0263671875,
+        "accuracy": 0.0263671875,
+        "avg_response_length": 259.1064453125
+      }
+    },
+    "prompt_ablation/question_only_seed0": {
+      "state": "complete",
+      "pid": 65973,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed0",
+      "started": 1791484765.157435,
+      "exit_code": 0,
+      "finished": 1791487830.350421,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.41796875,
+        "format_reward": 0.962890625,
+        "answer_reward": 0.41796875,
+        "accuracy": 0.41796875,
+        "avg_response_length": 1165.7177734375
+      }
+    },
+    "prompt_ablation/question_only_seed1": {
+      "state": "complete",
+      "pid": 65974,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed1",
+      "started": 1791484765.1583233,
+      "exit_code": 0,
+      "finished": 1791487860.4201796,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.3076171875,
+        "format_reward": 0.9912109375,
+        "answer_reward": 0.3076171875,
+        "accuracy": 0.3076171875,
+        "avg_response_length": 778.265625
+      }
+    },
+    "prompt_ablation/question_only_seed2": {
+      "state": "complete",
+      "pid": 65975,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed2",
+      "started": 1791484765.1590965,
+      "exit_code": 0,
+      "finished": 1791487205.2746935,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0673828125,
+        "format_reward": 0.98828125,
+        "answer_reward": 0.0673828125,
+        "accuracy": 0.0673828125,
+        "avg_response_length": 101.150390625
+      }
+    },
+    "prompt_ablation/question_only_seed3": {
+      "state": "complete",
+      "pid": 65976,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed3",
+      "started": 1791484765.1599078,
+      "exit_code": 0,
+      "finished": 1791486965.2134678,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0625,
+        "format_reward": 0.99609375,
+        "answer_reward": 0.0625,
+        "accuracy": 0.0625,
+        "avg_response_length": 31.3154296875
+      }
+    },
+    "prompt_ablation/r1_zero_three_shot_seed0": {
+      "state": "complete",
+      "pid": 10403,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed0",
+      "started": 1791544358.2897255,
+      "exit_code": 0,
+      "finished": 1791547668.1269796,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.453125,
+        "format_reward": 0.8857421875,
+        "answer_reward": 0.453125,
+        "accuracy": 0.453125,
+        "avg_response_length": 415.4482421875
+      }
+    },
+    "prompt_ablation/r1_zero_three_shot_seed1": {
+      "state": "complete",
+      "pid": 10404,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed1",
+      "started": 1791544358.2912204,
+      "exit_code": 0,
+      "finished": 1791547567.9822056,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.486328125,
+        "format_reward": 0.8740234375,
+        "answer_reward": 0.486328125,
+        "accuracy": 0.486328125,
+        "avg_response_length": 416.6904296875
+      }
+    },
+    "prompt_ablation/r1_zero_three_shot_seed2": {
+      "state": "complete",
+      "pid": 10405,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed2",
+      "started": 1791544358.2926228,
+      "exit_code": 0,
+      "finished": 1791547678.247869,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4912109375,
+        "format_reward": 0.9248046875,
+        "answer_reward": 0.4912109375,
+        "accuracy": 0.4912109375,
+        "avg_response_length": 423.89453125
+      }
+    },
+    "prompt_ablation/r1_zero_three_shot_seed3": {
+      "state": "complete",
+      "pid": 10406,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed3",
+      "started": 1791544358.29404,
+      "exit_code": 0,
+      "finished": 1791547603.0559585,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4814453125,
+        "format_reward": 0.9189453125,
+        "answer_reward": 0.4814453125,
+        "accuracy": 0.4814453125,
+        "avg_response_length": 388.6923828125
+      }
+    },
+    "grpo_variants/GRPO_constant_seed0": {
+      "state": "complete",
+      "pid": 16052,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed0",
+      "started": 1791547678.3279166,
+      "exit_code": 0,
+      "finished": 1791550028.5101557,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4365234375,
+        "format_reward": 0.8671875,
+        "answer_reward": 0.4365234375,
+        "accuracy": 0.4365234375,
+        "avg_response_length": 454.3447265625
+      }
+    },
+    "grpo_variants/GRPO_constant_seed1": {
+      "state": "complete",
+      "pid": 16053,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1",
+      "started": 1791547678.3290691,
+      "exit_code": 0,
+      "finished": 1791549998.45646,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.453125,
+        "format_reward": 0.8603515625,
+        "answer_reward": 0.453125,
+        "accuracy": 0.453125,
+        "avg_response_length": 432.767578125
+      }
+    },
+    "grpo_variants/GRPO_constant_seed2": {
+      "state": "complete",
+      "pid": 16054,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed2",
+      "started": 1791547678.3301911,
+      "exit_code": 0,
+      "finished": 1791550158.5663474,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4541015625,
+        "format_reward": 0.8955078125,
+        "answer_reward": 0.4541015625,
+        "accuracy": 0.4541015625,
+        "avg_response_length": 408.4140625
+      }
+    },
+    "grpo_variants/GRPO_constant_seed3": {
+      "state": "complete",
+      "pid": 16055,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed3",
+      "started": 1791547678.3313758,
+      "exit_code": 0,
+      "finished": 1791549978.3981915,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4208984375,
+        "format_reward": 0.853515625,
+        "answer_reward": 0.4208984375,
+        "accuracy": 0.4208984375,
+        "avg_response_length": 442.046875
+      }
+    },
+    "grpo_variants/Dr_GRPO_seed0": {
+      "state": "complete",
+      "pid": 18888,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed0",
+      "started": 1791550158.6214724,
+      "exit_code": 0,
+      "finished": 1791552493.724356,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4404296875,
+        "format_reward": 0.935546875,
+        "answer_reward": 0.4404296875,
+        "accuracy": 0.4404296875,
+        "avg_response_length": 389.73828125
+      }
+    },
+    "grpo_variants/Dr_GRPO_seed1": {
+      "state": "complete",
+      "pid": 18889,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed1",
+      "started": 1791550158.6228971,
+      "exit_code": 0,
+      "finished": 1791552628.834558,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4404296875,
+        "format_reward": 0.9150390625,
+        "answer_reward": 0.4404296875,
+        "accuracy": 0.4404296875,
+        "avg_response_length": 519.2041015625
+      }
+    },
+    "grpo_variants/Dr_GRPO_seed2": {
+      "state": "complete",
+      "pid": 18890,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed2",
+      "started": 1791550158.6242585,
+      "exit_code": 0,
+      "finished": 1791552528.78517,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.427734375,
+        "format_reward": 0.875,
+        "answer_reward": 0.427734375,
+        "accuracy": 0.427734375,
+        "avg_response_length": 405.40625
+      }
+    },
+    "grpo_variants/Dr_GRPO_seed3": {
+      "state": "complete",
+      "pid": 18891,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed3",
+      "started": 1791550158.625542,
+      "exit_code": 0,
+      "finished": 1791552393.699023,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.408203125,
+        "format_reward": 0.8427734375,
+        "answer_reward": 0.408203125,
+        "accuracy": 0.408203125,
+        "avg_response_length": 366.73046875
+      }
+    },
+    "grpo_variants/RFT_seed0": {
+      "state": "complete",
+      "pid": 21957,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed0",
+      "started": 1791552628.8905845,
+      "exit_code": 0,
+      "finished": 1791554893.9591732,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.1376953125,
+        "format_reward": 0.9375,
+        "answer_reward": 0.1376953125,
+        "accuracy": 0.1376953125,
+        "avg_response_length": 416.4677734375
+      }
+    },
+    "grpo_variants/RFT_seed1": {
+      "state": "complete",
+      "pid": 21958,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed1",
+      "started": 1791552628.891993,
+      "exit_code": 0,
+      "finished": 1791554984.1590753,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.240234375,
+        "format_reward": 0.982421875,
+        "answer_reward": 0.240234375,
+        "accuracy": 0.240234375,
+        "avg_response_length": 491.99609375
+      }
+    },
+    "grpo_variants/RFT_seed2": {
+      "state": "complete",
+      "pid": 21959,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed2",
+      "started": 1791552628.8934295,
+      "exit_code": 0,
+      "finished": 1791554959.0551424,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.2216796875,
+        "format_reward": 0.970703125,
+        "answer_reward": 0.2216796875,
+        "accuracy": 0.2216796875,
+        "avg_response_length": 494.103515625
+      }
+    },
+    "grpo_variants/RFT_seed3": {
+      "state": "complete",
+      "pid": 21960,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed3",
+      "started": 1791552628.8947697,
+      "exit_code": 0,
+      "finished": 1791554959.1135542,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.154296875,
+        "format_reward": 0.8974609375,
+        "answer_reward": 0.154296875,
+        "accuracy": 0.154296875,
+        "avg_response_length": 447.9375
+      }
+    },
+    "grpo_variants/MaxRL_seed0": {
+      "state": "complete",
+      "pid": 24997,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed0",
+      "started": 1791554984.2155552,
+      "exit_code": 0,
+      "finished": 1791557444.380859,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4453125,
+        "format_reward": 0.923828125,
+        "answer_reward": 0.4453125,
+        "accuracy": 0.4453125,
+        "avg_response_length": 515.7724609375
+      }
+    },
+    "grpo_variants/MaxRL_seed1": {
+      "state": "complete",
+      "pid": 24998,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed1",
+      "started": 1791554984.21708,
+      "exit_code": 0,
+      "finished": 1791557469.43959,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4296875,
+        "format_reward": 0.9697265625,
+        "answer_reward": 0.4296875,
+        "accuracy": 0.4296875,
+        "avg_response_length": 393.8154296875
+      }
+    },
+    "grpo_variants/MaxRL_seed2": {
+      "state": "complete",
+      "pid": 24999,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed2",
+      "started": 1791554984.2184658,
+      "exit_code": 0,
+      "finished": 1791557384.281549,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.375,
+        "format_reward": 0.8271484375,
+        "answer_reward": 0.375,
+        "accuracy": 0.375,
+        "avg_response_length": 410.9423828125
+      }
+    },
+    "grpo_variants/MaxRL_seed3": {
+      "state": "complete",
+      "pid": 25000,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed3",
+      "started": 1791554984.2197902,
+      "exit_code": 0,
+      "finished": 1791557384.335595,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.462890625,
+        "format_reward": 0.8701171875,
+        "answer_reward": 0.462890625,
+        "accuracy": 0.462890625,
+        "avg_response_length": 424.2080078125
+      }
+    },
+    "grpo_offpolicy/offpolicy_naive_seed0": {
+      "state": "complete",
+      "pid": 27982,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed0",
+      "started": 1791557469.4993997,
+      "exit_code": 0,
+      "finished": 1791560304.7454162,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 1024.15234375
+      }
+    },
+    "grpo_offpolicy/offpolicy_naive_seed1": {
+      "state": "complete",
+      "pid": 27983,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed1",
+      "started": 1791557469.5006456,
+      "exit_code": 0,
+      "finished": 1791560109.5740776,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4638671875,
+        "format_reward": 0.9111328125,
+        "answer_reward": 0.4638671875,
+        "accuracy": 0.4638671875,
+        "avg_response_length": 491.5029296875
+      }
+    },
+    "grpo_offpolicy/offpolicy_naive_seed2": {
+      "state": "complete",
+      "pid": 27984,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed2",
+      "started": 1791557469.5019417,
+      "exit_code": 0,
+      "finished": 1791560244.6360536,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.494140625,
+        "format_reward": 0.990234375,
+        "answer_reward": 0.494140625,
+        "accuracy": 0.494140625,
+        "avg_response_length": 458.9951171875
+      }
+    },
+    "grpo_offpolicy/offpolicy_naive_seed3": {
+      "state": "complete",
+      "pid": 27985,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed3",
+      "started": 1791557469.5029776,
+      "exit_code": 0,
+      "finished": 1791560264.6897852,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4560546875,
+        "format_reward": 0.9677734375,
+        "answer_reward": 0.4560546875,
+        "accuracy": 0.4560546875,
+        "avg_response_length": 629.2548828125
+      }
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed0": {
+      "state": "complete",
+      "pid": 30880,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed0",
+      "started": 1791560304.8191597,
+      "exit_code": 0,
+      "finished": 1791563389.968721,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.40234375,
+        "format_reward": 0.8623046875,
+        "answer_reward": 0.40234375,
+        "accuracy": 0.40234375,
+        "avg_response_length": 407.419921875
+      }
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed1": {
+      "state": "complete",
+      "pid": 30881,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed1",
+      "started": 1791560304.8203442,
+      "exit_code": 0,
+      "finished": 1791563875.0361907,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.3125,
+        "format_reward": 0.529296875,
+        "answer_reward": 0.3125,
+        "accuracy": 0.3125,
+        "avg_response_length": 1830.4541015625
+      }
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed2": {
+      "state": "failed",
+      "pid": 30882,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed2",
+      "started": 1791560304.8215127,
+      "exit_code": 0,
+      "finished": 1791564055.1867468,
+      "error": "Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed2: {'step': 120, 'split': 'train', 'clip_count': 0.0, 'clip_total': 0.0, 'clip_fraction': 0.0, 'loss': nan, 'gradient_norm': nan, 'token_entropy': nan, 'num_response_tokens': 1276.96875, 'num_sequences': 8.0, 'num_active_sequences': 1.5, 'entropy_num_sequences': 1.5, 'mean_reward': 0.078125, 'mean_format_reward': 0.1796875, 'mean_answer_reward': 0.078125, 'mean_advantage': 4.656612873077393e-10, 'mean_group_baseline': 0.078125, 'mean_group_normalizer': 0.0856136754155159, 'optimizer_updates': 32.0}"
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed3": {
+      "state": "failed",
+      "pid": 30883,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed3",
+      "started": 1791560304.8226497,
+      "exit_code": 0,
+      "finished": 1791563935.1027951,
+      "error": "Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed3: {'step': 129, 'split': 'train', 'clip_count': 0.0, 'clip_total': 0.0, 'clip_fraction': 0.0, 'loss': 1.9074189409859434e+33, 'gradient_norm': inf, 'token_entropy': 0.018714608624577522, 'num_response_tokens': 611.65625, 'num_sequences': 8.0, 'num_active_sequences': 3.25, 'entropy_num_sequences': 3.25, 'mean_reward': 0.23046875, 'mean_format_reward': 0.68359375, 'mean_answer_reward': 0.23046875, 'mean_advantage': 1.1641532182693481e-09, 'mean_group_baseline': 0.23046875, 'mean_group_normalizer': 0.17650193441659212, 'optimizer_updates': 32.0}"
+    },
+    "grpo_offpolicy/offpolicy_clip_seed0": {
+      "state": "failed",
+      "pid": 34229,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed0",
+      "started": 1791564055.2005546,
+      "exit_code": 0,
+      "finished": 1791568500.483051,
+      "error": "Non-finite metric: /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed0: {'step': 136, 'split': 'train', 'clip_count': 296.59375, 'clip_total': 454.03125, 'clip_fraction': 0.6532452336705898, 'loss': 182523879489536.0, 'gradient_norm': inf, 'token_entropy': 0.0008428938162978739, 'num_response_tokens': 454.03125, 'num_sequences': 8.0, 'num_active_sequences': 0.5, 'entropy_num_sequences': 0.5, 'mean_reward': 0.01953125, 'mean_format_reward': 0.109375, 'mean_answer_reward': 0.01953125, 'mean_advantage': 4.656612873077393e-10, 'mean_group_baseline': 0.01953125, 'mean_group_normalizer': 0.030639350414276123, 'optimizer_updates': 32.0}"
+    },
+    "grpo_offpolicy/offpolicy_clip_seed1": {
+      "state": "complete",
+      "pid": 34230,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed1",
+      "started": 1791564055.2024274,
+      "exit_code": 0,
+      "finished": 1791566500.2773066,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 941.9189453125
+      }
+    },
+    "grpo_offpolicy/offpolicy_clip_seed2": {
+      "state": "failed",
+      "pid": 34231,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed2",
+      "started": 1791564055.2043605,
+      "exit_code": 1,
+      "finished": 1791564720.229322,
+      "error": "exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed2/startup.log"
+    },
+    "grpo_offpolicy/offpolicy_clip_seed3": {
+      "state": "complete",
+      "pid": 34232,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed3",
+      "started": 1791564055.2062004,
+      "exit_code": 0,
+      "finished": 1791567815.3755968,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 3085.447265625
+      }
+    },
+    "grpo_offpolicy/offpolicy_gspo_seed0": {
+      "state": "complete",
+      "pid": 37296,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed0",
+      "started": 1791568500.4968648,
+      "exit_code": 0,
+      "finished": 1791571630.7029657,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4404296875,
+        "format_reward": 0.791015625,
+        "answer_reward": 0.4404296875,
+        "accuracy": 0.4404296875,
+        "avg_response_length": 352.5078125
+      }
+    },
+    "grpo_offpolicy/offpolicy_gspo_seed1": {
+      "state": "complete",
+      "pid": 37297,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed1",
+      "started": 1791568500.4986284,
+      "exit_code": 0,
+      "finished": 1791571710.760868,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.51953125,
+        "format_reward": 0.966796875,
+        "answer_reward": 0.51953125,
+        "accuracy": 0.51953125,
+        "avg_response_length": 530.375
+      }
+    },
+    "grpo_offpolicy/offpolicy_gspo_seed2": {
+      "state": "complete",
+      "pid": 37298,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed2",
+      "started": 1791568500.5003843,
+      "exit_code": 0,
+      "finished": 1791571895.7887888,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4111328125,
+        "format_reward": 0.8466796875,
+        "answer_reward": 0.4111328125,
+        "accuracy": 0.4111328125,
+        "avg_response_length": 404.322265625
+      }
+    },
+    "grpo_offpolicy/offpolicy_gspo_seed3": {
+      "state": "failed",
+      "pid": 37299,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed3",
+      "started": 1791568500.5020905,
+      "exit_code": 1,
+      "finished": 1791568540.613521,
+      "error": "exit code 1; inspect /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed3/startup.log"
+    }
+  },
+  "root": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913",
+  "updated": "2026-10-10T02:51:35.845414+08:00",
+  "stage": "done",
+  "state_before_pause": "failed",
+  "pause_reason": "User requested pause if full experiment queue incomplete",
+  "failed_jobs": [
+    "grpo_offpolicy/offpolicy_noclip_seed2",
+    "grpo_offpolicy/offpolicy_noclip_seed3",
+    "grpo_offpolicy/offpolicy_clip_seed0",
+    "grpo_offpolicy/offpolicy_clip_seed2",
+    "grpo_offpolicy/offpolicy_gspo_seed3"
+  ],
+  "recovery_root": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842"
+}

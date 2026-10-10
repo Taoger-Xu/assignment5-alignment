@@ -1,0 +1,65 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:46,  3.86it/s]Loading weights:  39%|███▊      | 69/179 [00:00<00:00, 239.86it/s]Loading weights:  63%|██████▎   | 113/179 [00:00<00:00, 302.16it/s]Loading weights:  88%|████████▊ | 157/179 [00:00<00:00, 332.25it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 297.77it/s]
+W1010 01:55:31.915000 37588 torch/utils/cpp_extension.py:118] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda-13.0'
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/bin/vllm", line 4, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/entrypoints/cli/__init__.py", line 4, in <module>
+    from vllm.entrypoints.cli.benchmark.mm_processor import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/entrypoints/cli/benchmark/mm_processor.py", line 5, in <module>
+    from vllm.benchmarks.mm_processor import add_cli_args, main
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/benchmarks/mm_processor.py", line 25, in <module>
+    from vllm.benchmarks.datasets import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/benchmarks/datasets.py", line 40, in <module>
+    from vllm.lora.utils import get_adapter_absolute_path
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/lora/utils.py", line 18, in <module>
+    from vllm.lora.layers import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/lora/layers/__init__.py", line 4, in <module>
+    from vllm.lora.layers.column_parallel_linear import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/lora/layers/column_parallel_linear.py", line 20, in <module>
+    from .base_linear import BaseLinearLayerWithLoRA
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/lora/layers/base_linear.py", line 19, in <module>
+    from .utils import _get_lora_device
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/lora/layers/utils.py", line 10, in <module>
+    from vllm.model_executor.layers.fused_moe.fused_moe import try_get_optimal_moe_config
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/__init__.py", line 16, in <module>
+    from vllm.model_executor.layers.fused_moe.fused_moe_method_base import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/fused_moe_method_base.py", line 8, in <module>
+    import vllm.model_executor.layers.fused_moe.modular_kernel as mk
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/modular_kernel.py", line 23, in <module>
+    from vllm.model_executor.layers.fused_moe.utils import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/utils.py", line 9, in <module>
+    from vllm.model_executor.layers.quantization.utils.fp8_utils import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/quantization/utils/fp8_utils.py", line 22, in <module>
+    from vllm.model_executor.layers.quantization.utils.w8a8_utils import (
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/quantization/utils/w8a8_utils.py", line 41, in <module>
+    CUTLASS_FP8_SUPPORTED = cutlass_fp8_supported()
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/model_executor/layers/quantization/utils/w8a8_utils.py", line 15, in cutlass_fp8_supported
+    capability_tuple = current_platform.get_device_capability()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/platforms/cuda.py", line 121, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/platforms/cuda.py", line 539, in get_device_capability
+    handle = pynvml.nvmlDeviceGetHandleByIndex(physical_device_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/third_party/pynvml.py", line 2609, in nvmlDeviceGetHandleByIndex
+    _nvmlCheckReturn(ret)
+  File "/home/jk/work/cs336/assignment5-alignment/.venv/lib/python3.12/site-packages/vllm/third_party/pynvml.py", line 1047, in _nvmlCheckReturn
+    raise NVMLError(ret)
+vllm.third_party.pynvml.NVMLError_InvalidArgument: Invalid Argument
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/train_grpo.py", line 171, in <module>
+    main()
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/train_grpo.py", line 167, in main
+    trainer.train()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/training/trainer.py", line 244, in train
+    self.sampler.start()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/rollout/sampler.py", line 79, in start
+    self.server.start()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/vllm_utils.py", line 67, in start
+    wait_for_server(self.base_url, self.process, self.startup_timeout)
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/vllm_utils.py", line 186, in wait_for_server
+    raise RuntimeError(f"vLLM server exited early with code {process.returncode}.")
+RuntimeError: vLLM server exited early with code 1.

@@ -1,5 +1,5 @@
 *.bin
-models/
+/models/
 
 nav
 tags
@@ -166,3 +166,22 @@ cython_debug/
 #.idea/
 
 *.DS_Store
+
+# Local training artifacts and runtime state
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pid
+*.lock
+!uv.lock
+*.tmp
+.env.*
+wandb/
+swanlog/
+.ruff_cache/
+
+# Preserve experiment diagnostics alongside metrics and rollouts
+!experiments/**/startup.log
+!experiments/**/queue.log
+!experiments/**/checkpoint_cleanup.log

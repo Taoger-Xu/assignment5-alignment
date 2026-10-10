@@ -1,0 +1,22 @@
+[2026-10-10T20:59:05.000227] stage=smoke, jobs=5
+launch smoke/offpolicy_noclip_seed2: GPU 0/1, port 8500
+launch smoke/offpolicy_noclip_seed3: GPU 2/3, port 8501
+launch smoke/offpolicy_clip_seed0: GPU 4/5, port 8502
+launch smoke/offpolicy_clip_seed2: GPU 6/7, port 8503
+smoke/offpolicy_noclip_seed2: complete
+smoke/offpolicy_clip_seed0: complete
+smoke/offpolicy_clip_seed2: complete
+smoke/offpolicy_noclip_seed3: complete
+launch smoke/offpolicy_gspo_seed3: GPU 0/1, port 8500
+smoke/offpolicy_gspo_seed3: complete
+[2026-10-10T21:03:55.097490] stage=grpo_offpolicy, jobs=5
+launch grpo_offpolicy/offpolicy_noclip_seed2: GPU 0/1, port 8500
+launch grpo_offpolicy/offpolicy_noclip_seed3: GPU 2/3, port 8501
+launch grpo_offpolicy/offpolicy_clip_seed0: GPU 4/5, port 8502
+launch grpo_offpolicy/offpolicy_clip_seed2: GPU 6/7, port 8503
+grpo_offpolicy/offpolicy_clip_seed2: complete
+grpo_offpolicy/offpolicy_clip_seed0: complete
+grpo_offpolicy/offpolicy_noclip_seed3: complete
+grpo_offpolicy/offpolicy_noclip_seed2: complete
+launch grpo_offpolicy/offpolicy_gspo_seed3: GPU 0/1, port 8500
+grpo_offpolicy/offpolicy_gspo_seed3: complete

@@ -1,0 +1,2 @@
+{"step": 1, "split": "train", "loss": 0.0, "gradient_norm": 0.0, "token_entropy": 0.984375, "num_response_tokens": 128.0, "num_sequences": 4.0, "mean_reward": 0.0, "mean_format_reward": 0.0, "mean_answer_reward": 0.0, "mean_advantage": 0.0, "mean_group_baseline": 0.0, "mean_group_normalizer": 0.0}
+{"step": 1, "split": "val", "total_reward": 0.0, "format_reward": 0.0, "answer_reward": 0.0, "accuracy": 0.0, "avg_response_length": 131.5}

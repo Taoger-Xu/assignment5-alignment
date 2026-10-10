@@ -1,0 +1,40 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:36<1:49:41, 36.98s/it]Loading weights:  42%|████▏     | 76/179 [00:37<00:36,  2.86it/s] Loading weights:  50%|████▉     | 89/179 [00:40<00:28,  3.11it/s]Loading weights:  53%|█████▎    | 95/179 [00:42<00:27,  3.00it/s]Loading weights:  56%|█████▋    | 101/179 [00:42<00:22,  3.47it/s]Loading weights:  59%|█████▊    | 105/179 [00:46<00:25,  2.88it/s]Loading weights:  62%|██████▏   | 111/179 [00:46<00:19,  3.57it/s]Loading weights:  64%|██████▍   | 115/179 [00:49<00:23,  2.76it/s]Loading weights:  69%|██████▊   | 123/179 [00:49<00:15,  3.66it/s]Loading weights:  70%|███████   | 126/179 [00:51<00:17,  3.09it/s]Loading weights:  74%|███████▍  | 133/179 [00:52<00:11,  4.07it/s]Loading weights:  75%|███████▌  | 135/179 [00:54<00:16,  2.74it/s]Loading weights:  80%|████████  | 144/179 [00:55<00:08,  4.32it/s]Loading weights:  82%|████████▏ | 146/179 [00:57<00:11,  2.85it/s]Loading weights:  83%|████████▎ | 148/179 [00:57<00:09,  3.22it/s]Loading weights:  87%|████████▋ | 156/179 [00:58<00:04,  4.64it/s]Loading weights:  88%|████████▊ | 158/179 [01:00<00:06,  3.13it/s]Loading weights:  93%|█████████▎| 167/179 [01:01<00:02,  5.17it/s]Loading weights:  94%|█████████▍| 169/179 [01:03<00:03,  2.86it/s]Loading weights: 100%|██████████| 179/179 [01:03<00:00,  2.80it/s]
+(EngineCore pid=17523) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(EngineCore pid=17523) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(EngineCore pid=17523) Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=17523) Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.12it/s]
+(EngineCore pid=17523) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.91it/s]
+(EngineCore pid=17523) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.72it/s]
+(EngineCore pid=17523) 
+(EngineCore pid=17523) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 6/51 [00:00<00:00, 50.40it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▎       | 12/51 [00:00<00:00, 52.46it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  35%|███▌      | 18/51 [00:00<00:00, 53.78it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  47%|████▋     | 24/51 [00:00<00:00, 55.14it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  59%|█████▉    | 30/51 [00:00<00:00, 56.26it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  71%|███████   | 36/51 [00:00<00:00, 57.10it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 42/51 [00:00<00:00, 56.79it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 48/51 [00:00<00:00, 54.10it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 51/51 [00:01<00:00, 42.24it/s]
+(EngineCore pid=17523) Capturing CUDA graphs (decode, FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  14%|█▍        | 5/35 [00:00<00:00, 48.28it/s]Capturing CUDA graphs (decode, FULL):  34%|███▍      | 12/35 [00:00<00:00, 58.72it/s]Capturing CUDA graphs (decode, FULL):  54%|█████▍    | 19/35 [00:00<00:00, 62.91it/s]Capturing CUDA graphs (decode, FULL):  74%|███████▍  | 26/35 [00:00<00:00, 65.15it/s]Capturing CUDA graphs (decode, FULL):  94%|█████████▍| 33/35 [00:00<00:00, 66.64it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 64.29it/s]
+(APIServer pid=17421) INFO:     Started server process [17421]
+(APIServer pid=17421) INFO:     Waiting for application startup.
+(APIServer pid=17421) INFO:     Application startup complete.
+(APIServer pid=17421) INFO:     127.0.0.1:38382 - "GET /health HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38398 - "GET /get_world_size HTTP/1.1" 200 OK
+INFO 10-10 21:01:33 [pynccl.py:111] vLLM is using nccl==2.27.5
+(APIServer pid=17421) INFO:     127.0.0.1:38408 - "POST /init_weight_transfer_engine HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38424 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38426 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38430 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38444 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38446 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38452 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38458 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38472 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38484 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:38500 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:56668 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:56674 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:56690 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:56702 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=17421) INFO:     127.0.0.1:56704 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.27s/it]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.27s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_clip_seed0/checkpoints/step_000001
+[step 1/1] loss=0.0000 reward=0.0000
+(APIServer pid=17421) INFO:     Shutting down
+(APIServer pid=17421) INFO:     Waiting for application shutdown.
+(APIServer pid=17421) INFO:     Application shutdown complete.
+(APIServer pid=17421) INFO:     Finished server process [17421]

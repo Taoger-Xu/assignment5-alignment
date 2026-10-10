@@ -1,0 +1,96 @@
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed2/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed1/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/lr_low/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/Dr_GRPO/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_naive/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/question_only/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/lr_high/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/RFT/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_clip/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard_seed3/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/GRPO_constant/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/three_shot/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_noclip/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/MaxRL/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/offpolicy_gspo/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/standard/checkpoints: 8.30 GiB
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed3/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed3/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed3/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed2/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed2/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed2/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed0/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed0/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed0/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed1/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed1/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed1/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed0/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed0/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed0/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed3/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed3/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed3/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed1/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed1/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed1/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed2/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed2/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed2/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed0/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed0/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed0/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed3/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed3/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed3/checkpoints/step_000050
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed1/checkpoints/step_000100
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed1/checkpoints/step_000150
+Deleted intermediate /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed1/checkpoints/step_000050
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed3/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed0/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed3/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed0/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed1/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed1/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_2e-5_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/lr_sweep/lr_5e-6_seed2/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed1/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed3/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed0/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_standard/seed2/checkpoints: 8.30 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/question_only_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/prompt_ablation/r1_zero_three_shot_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/GRPO_constant_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/Dr_GRPO_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/RFT_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_variants/MaxRL_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed2/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_naive_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_noclip_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_clip_seed3/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed0/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed1/checkpoints: 33.22 GiB
+Deleted /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/grpo_offpolicy/offpolicy_gspo_seed2/checkpoints: 33.22 GiB

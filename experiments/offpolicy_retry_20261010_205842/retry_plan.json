@@ -1,0 +1,103 @@
+{
+  "source": "/home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913",
+  "jobs": [
+    [
+      "offpolicy_noclip_seed2",
+      {
+        "train-limit": "6400",
+        "rollout-batch-size": "256",
+        "group-size": "8",
+        "gradient-accumulation-steps": "1",
+        "prompt-type": "r1_zero",
+        "learning-rate": "1e-5",
+        "max-tokens": "512",
+        "gpu-memory-utilization": "0.8",
+        "eval-interval": "10",
+        "rollout-log-interval": "40",
+        "seed": "2",
+        "importance-reweighting-method": "noclip",
+        "train-batch-size": "8"
+      }
+    ],
+    [
+      "offpolicy_noclip_seed3",
+      {
+        "train-limit": "6400",
+        "rollout-batch-size": "256",
+        "group-size": "8",
+        "gradient-accumulation-steps": "1",
+        "prompt-type": "r1_zero",
+        "learning-rate": "1e-5",
+        "max-tokens": "512",
+        "gpu-memory-utilization": "0.8",
+        "eval-interval": "10",
+        "rollout-log-interval": "40",
+        "seed": "3",
+        "importance-reweighting-method": "noclip",
+        "train-batch-size": "8"
+      }
+    ],
+    [
+      "offpolicy_clip_seed0",
+      {
+        "train-limit": "6400",
+        "rollout-batch-size": "256",
+        "group-size": "8",
+        "gradient-accumulation-steps": "1",
+        "prompt-type": "r1_zero",
+        "learning-rate": "1e-5",
+        "max-tokens": "512",
+        "gpu-memory-utilization": "0.8",
+        "eval-interval": "10",
+        "rollout-log-interval": "40",
+        "seed": "0",
+        "importance-reweighting-method": "grpo",
+        "cliprange": "0.2",
+        "train-batch-size": "8"
+      }
+    ],
+    [
+      "offpolicy_clip_seed2",
+      {
+        "train-limit": "6400",
+        "rollout-batch-size": "256",
+        "group-size": "8",
+        "gradient-accumulation-steps": "1",
+        "prompt-type": "r1_zero",
+        "learning-rate": "1e-5",
+        "max-tokens": "512",
+        "gpu-memory-utilization": "0.8",
+        "eval-interval": "10",
+        "rollout-log-interval": "40",
+        "seed": "2",
+        "importance-reweighting-method": "grpo",
+        "cliprange": "0.2",
+        "train-batch-size": "8"
+      }
+    ],
+    [
+      "offpolicy_gspo_seed3",
+      {
+        "train-limit": "6400",
+        "rollout-batch-size": "256",
+        "group-size": "8",
+        "gradient-accumulation-steps": "1",
+        "prompt-type": "r1_zero",
+        "learning-rate": "1e-5",
+        "max-tokens": "512",
+        "gpu-memory-utilization": "0.8",
+        "eval-interval": "10",
+        "rollout-log-interval": "40",
+        "seed": "3",
+        "importance-reweighting-method": "gspo",
+        "cliprange": "0.0003",
+        "train-batch-size": "8"
+      }
+    ]
+  ],
+  "changes": [
+    "float32 log probabilities and ratios",
+    "mask before exp",
+    "skip non-finite optimizer updates with explicit metric"
+  ]
+}

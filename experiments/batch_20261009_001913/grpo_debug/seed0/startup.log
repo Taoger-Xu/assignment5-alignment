@@ -1,0 +1,127 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:36,  4.83it/s]Loading weights:  51%|█████▏    | 92/179 [00:00<00:00, 367.75it/s]Loading weights:  82%|████████▏ | 146/179 [00:00<00:00, 410.85it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 382.10it/s]
+(EngineCore pid=55650) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(EngineCore pid=55650) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(EngineCore pid=55650) Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=55650) Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.27it/s]
+(EngineCore pid=55650) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  2.08it/s]
+(EngineCore pid=55650) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.90it/s]
+(EngineCore pid=55650) 
+(EngineCore pid=55650) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 6/51 [00:00<00:00, 51.42it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▎       | 12/51 [00:00<00:00, 53.27it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  35%|███▌      | 18/51 [00:00<00:00, 55.07it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  47%|████▋     | 24/51 [00:00<00:00, 55.76it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  59%|█████▉    | 30/51 [00:00<00:00, 55.93it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  71%|███████   | 36/51 [00:00<00:00, 56.56it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 42/51 [00:00<00:00, 56.80it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 48/51 [00:00<00:00, 54.21it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 51/51 [00:00<00:00, 53.22it/s]
+(EngineCore pid=55650) Capturing CUDA graphs (decode, FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  20%|██        | 7/35 [00:00<00:00, 64.91it/s]Capturing CUDA graphs (decode, FULL):  40%|████      | 14/35 [00:00<00:00, 65.67it/s]Capturing CUDA graphs (decode, FULL):  60%|██████    | 21/35 [00:00<00:00, 65.95it/s]Capturing CUDA graphs (decode, FULL):  80%|████████  | 28/35 [00:00<00:00, 66.62it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 67.28it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 66.67it/s]
+(APIServer pid=55614) INFO:     Started server process [55614]
+(APIServer pid=55614) INFO:     Waiting for application startup.
+(APIServer pid=55614) INFO:     Application startup complete.
+(APIServer pid=55614) INFO:     127.0.0.1:39334 - "GET /health HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39346 - "GET /get_world_size HTTP/1.1" 200 OK
+INFO 10-09 00:28:26 [pynccl.py:111] vLLM is using nccl==2.27.5
+(APIServer pid=55614) INFO:     127.0.0.1:39356 - "POST /init_weight_transfer_engine HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39358 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39370 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39380 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39388 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:39398 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55796 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55802 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55814 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55816 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55818 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:38262 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:38278 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:38288 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:38296 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:38308 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 1/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:46254 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46256 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46272 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46284 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46292 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 2/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:37796 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37810 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37822 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37832 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37846 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 3/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:37850 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37852 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37854 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37864 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37866 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 4/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:46808 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46822 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46824 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46836 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:46848 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 5/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:48518 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48532 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48542 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48556 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48572 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 6/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:48588 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48592 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48594 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48604 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:48614 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 7/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:52680 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52696 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52712 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52720 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52736 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 8/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:52752 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52762 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52768 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52782 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:52790 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 9/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:37294 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37302 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37304 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37318 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37332 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37336 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37346 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37354 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37360 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:37368 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 10/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:55918 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55934 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55948 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55956 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55970 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 11/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:55984 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:55998 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:56000 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:56012 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:56028 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 12/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:47482 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47486 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47494 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47496 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47502 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 13/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:47506 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47516 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47526 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47542 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:47552 - "POST /v1/completions HTTP/1.1" 200 OK
+[step 14/50] loss=0.0000 reward=0.0000
+(APIServer pid=55614) INFO:     127.0.0.1:40560 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:40574 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:40576 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:40586 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     127.0.0.1:40592 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=55614) INFO:     Shutting down
+[rank0]:[W1009 00:31:23.511443540 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+(APIServer pid=55614) INFO:     Waiting for application shutdown.
+(APIServer pid=55614) INFO:     Application shutdown complete.
+(APIServer pid=55614) INFO:     Finished server process [55614]

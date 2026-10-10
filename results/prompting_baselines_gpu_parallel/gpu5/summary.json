@@ -1,0 +1,40 @@
+[
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_3_unformatted_and_wrong": 326,
+      "category_2_formatted_but_wrong": 114
+    },
+    "mean_format_reward": 0.2590909090909091,
+    "mean_answer_reward": 0.0,
+    "mean_reward": 0.0,
+    "prompt_name": "question_only",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu5/question_only.jsonl"
+  },
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_2_formatted_but_wrong": 272,
+      "category_3_unformatted_and_wrong": 167,
+      "category_1_correct_and_formatted": 1
+    },
+    "mean_format_reward": 0.6204545454545455,
+    "mean_answer_reward": 0.0022727272727272726,
+    "mean_reward": 0.0022727272727272726,
+    "prompt_name": "r1_zero",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu5/r1_zero.jsonl"
+  },
+  {
+    "num_examples": 440,
+    "category_counts": {
+      "category_2_formatted_but_wrong": 331,
+      "category_3_unformatted_and_wrong": 22,
+      "category_1_correct_and_formatted": 87
+    },
+    "mean_format_reward": 0.95,
+    "mean_answer_reward": 0.19772727272727272,
+    "mean_reward": 0.19772727272727272,
+    "prompt_name": "r1_zero_three_shot",
+    "result_path": "results/prompting_baselines_gpu_parallel/gpu5/r1_zero_three_shot.jsonl"
+  }
+]

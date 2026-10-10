@@ -1,0 +1,64 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:25,  6.92it/s]Loading weights:  32%|███▏      | 58/179 [00:00<00:00, 280.07it/s]Loading weights:  58%|█████▊    | 104/179 [00:00<00:00, 353.27it/s]Loading weights:  82%|████████▏ | 146/179 [00:00<00:00, 347.31it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 337.39it/s]
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/vllm_utils.py", line 128, in reserve_server_port
+    probe.bind((host, port))
+OSError: [Errno 98] Address already in use
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/train_grpo.py", line 171, in <module>
+    main()
+  File "/home/jk/work/cs336/assignment5-alignment/scripts/train_grpo.py", line 167, in main
+    trainer.train()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/training/trainer.py", line 244, in train
+    self.sampler.start()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/rollout/sampler.py", line 79, in start
+    self.server.start()
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/vllm_utils.py", line 55, in start
+    self._port_lock = reserve_server_port(self.host, self.port)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jk/work/cs336/assignment5-alignment/cs336_alignment/vllm_utils.py", line 131, in reserve_server_port
+    raise RuntimeError(
+RuntimeError: vLLM port 127.0.0.1:8501 is unavailable or reserved by another run. Choose a different --port; the existing server will not be stopped.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<00:23,  7.52it/s]Loading weights:  26%|██▋       | 47/179 [00:00<00:00, 238.62it/s]Loading weights:  45%|████▍     | 80/179 [00:00<00:00, 268.90it/s]Loading weights:  70%|███████   | 126/179 [00:00<00:00, 339.13it/s]Loading weights: 100%|██████████| 179/179 [00:00<00:00, 332.16it/s]
+(EngineCore pid=53482) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(EngineCore pid=53482) <frozen importlib._bootstrap_external>:1301: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(EngineCore pid=53482) Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+(EngineCore pid=53482) Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.24it/s]
+(EngineCore pid=53482) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  2.02it/s]
+(EngineCore pid=53482) Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:01<00:00,  1.85it/s]
+(EngineCore pid=53482) 
+(EngineCore pid=53482) Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 6/51 [00:00<00:00, 51.53it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▎       | 12/51 [00:00<00:00, 53.23it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  35%|███▌      | 18/51 [00:00<00:00, 55.72it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  47%|████▋     | 24/51 [00:00<00:00, 56.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  59%|█████▉    | 30/51 [00:00<00:00, 57.50it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  71%|███████   | 36/51 [00:00<00:00, 58.20it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 42/51 [00:00<00:00, 58.44it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 48/51 [00:00<00:00, 55.73it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 51/51 [00:00<00:00, 54.43it/s]
+(EngineCore pid=53482) Capturing CUDA graphs (decode, FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  20%|██        | 7/35 [00:00<00:00, 66.88it/s]Capturing CUDA graphs (decode, FULL):  40%|████      | 14/35 [00:00<00:00, 67.83it/s]Capturing CUDA graphs (decode, FULL):  60%|██████    | 21/35 [00:00<00:00, 68.05it/s]Capturing CUDA graphs (decode, FULL):  80%|████████  | 28/35 [00:00<00:00, 68.73it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 35/35 [00:00<00:00, 68.78it/s]
+(APIServer pid=53403) INFO:     Started server process [53403]
+(APIServer pid=53403) INFO:     Waiting for application startup.
+(APIServer pid=53403) INFO:     Application startup complete.
+(APIServer pid=53403) INFO:     127.0.0.1:52720 - "GET /health HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52724 - "GET /get_world_size HTTP/1.1" 200 OK
+INFO 10-09 00:23:39 [pynccl.py:111] vLLM is using nccl==2.27.5
+(APIServer pid=53403) INFO:     127.0.0.1:52734 - "POST /init_weight_transfer_engine HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52740 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52744 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52756 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52762 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52778 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52792 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52804 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52810 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52816 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52830 - "POST /v1/completions HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52436 - "POST /pause HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52438 - "POST /update_weights HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52452 - "POST /reset_prefix_cache HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52466 - "POST /resume HTTP/1.1" 200 OK
+(APIServer pid=53403) INFO:     127.0.0.1:52470 - "POST /v1/completions HTTP/1.1" 200 OK
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.95s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.95s/it]
+[checkpoint] /home/jk/work/cs336/assignment5-alignment/experiments/batch_20261009_001913/smoke/GRPO_constant/checkpoints/step_000001
+[step 1/1] loss=0.0000 reward=0.0000
+(APIServer pid=53403) INFO:     Shutting down
+(APIServer pid=53403) INFO:     Waiting for application shutdown.
+(APIServer pid=53403) INFO:     Application shutdown complete.
+(APIServer pid=53403) INFO:     Finished server process [53403]

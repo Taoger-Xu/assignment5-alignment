@@ -1,0 +1,230 @@
+{
+  "jobs": {
+    "smoke/offpolicy_noclip_seed2": {
+      "state": "complete",
+      "pid": 16848,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_noclip_seed2",
+      "started": 1791637145.0023005,
+      "exit_code": 0,
+      "finished": 1791637335.014084,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 310.75
+      }
+    },
+    "smoke/offpolicy_noclip_seed3": {
+      "state": "complete",
+      "pid": 16849,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_noclip_seed3",
+      "started": 1791637145.004079,
+      "exit_code": 0,
+      "finished": 1791637345.0708501,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.125,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 352.75
+      }
+    },
+    "smoke/offpolicy_clip_seed0": {
+      "state": "complete",
+      "pid": 16850,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_clip_seed0",
+      "started": 1791637145.0061636,
+      "exit_code": 0,
+      "finished": 1791637335.0265462,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.5,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 324.125
+      }
+    },
+    "smoke/offpolicy_clip_seed2": {
+      "state": "complete",
+      "pid": 16851,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_clip_seed2",
+      "started": 1791637145.0079474,
+      "exit_code": 0,
+      "finished": 1791637335.0545104,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 314.75
+      }
+    },
+    "smoke/offpolicy_gspo_seed3": {
+      "state": "complete",
+      "pid": 18349,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/smoke/offpolicy_gspo_seed3",
+      "started": 1791637345.082768,
+      "exit_code": 0,
+      "finished": 1791637435.086159,
+      "final_validation": {
+        "step": 1,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.125,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 352.75
+      }
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed2": {
+      "state": "complete",
+      "pid": 18800,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/grpo_offpolicy/offpolicy_noclip_seed2",
+      "started": 1791637435.099542,
+      "exit_code": 0,
+      "finished": 1791641360.4099674,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 3519.3564453125
+      }
+    },
+    "grpo_offpolicy/offpolicy_noclip_seed3": {
+      "state": "complete",
+      "pid": 18801,
+      "gpu_pair": [
+        2,
+        3
+      ],
+      "port": 8501,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/grpo_offpolicy/offpolicy_noclip_seed3",
+      "started": 1791637435.10147,
+      "exit_code": 0,
+      "finished": 1791641335.3148406,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.0,
+        "format_reward": 0.0,
+        "answer_reward": 0.0,
+        "accuracy": 0.0,
+        "avg_response_length": 4018.123046875
+      }
+    },
+    "grpo_offpolicy/offpolicy_clip_seed0": {
+      "state": "complete",
+      "pid": 18802,
+      "gpu_pair": [
+        4,
+        5
+      ],
+      "port": 8502,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/grpo_offpolicy/offpolicy_clip_seed0",
+      "started": 1791637435.103384,
+      "exit_code": 0,
+      "finished": 1791640370.2498782,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4306640625,
+        "format_reward": 0.798828125,
+        "answer_reward": 0.4306640625,
+        "accuracy": 0.4306640625,
+        "avg_response_length": 449.84765625
+      }
+    },
+    "grpo_offpolicy/offpolicy_clip_seed2": {
+      "state": "complete",
+      "pid": 18803,
+      "gpu_pair": [
+        6,
+        7
+      ],
+      "port": 8503,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/grpo_offpolicy/offpolicy_clip_seed2",
+      "started": 1791637435.1051812,
+      "exit_code": 0,
+      "finished": 1791640330.1839452,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.4599609375,
+        "format_reward": 0.7705078125,
+        "answer_reward": 0.4599609375,
+        "accuracy": 0.4599609375,
+        "avg_response_length": 399.6240234375
+      }
+    },
+    "grpo_offpolicy/offpolicy_gspo_seed3": {
+      "state": "complete",
+      "pid": 34059,
+      "gpu_pair": [
+        0,
+        1
+      ],
+      "port": 8500,
+      "output": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842/grpo_offpolicy/offpolicy_gspo_seed3",
+      "started": 1791641360.454521,
+      "exit_code": 0,
+      "finished": 1791644884.9057846,
+      "final_validation": {
+        "step": 200,
+        "split": "val",
+        "total_reward": 0.47265625,
+        "format_reward": 0.9794921875,
+        "answer_reward": 0.47265625,
+        "accuracy": 0.47265625,
+        "avg_response_length": 486.2607421875
+      }
+    }
+  },
+  "state": "complete",
+  "pid": 16669,
+  "root": "/home/jk/work/cs336/assignment5-alignment/experiments/offpolicy_retry_20261010_205842",
+  "updated": "2026-10-10T23:08:04.965203+08:00",
+  "stage": "done",
+  "failed_jobs": []
+}
